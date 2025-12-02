@@ -1,7 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-
 export const platform: PlatformRaw = {
   id: "pumpswap",
   name: "PumpSwap",
@@ -13,20 +10,4 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/pumpfunsupport",
   },
 };
-
-const contract = {
-  name: 'PumpSwap AMM',
-  address: 'pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA',
-  platformId: 'pumpswap',
-};
-
-const service: ServiceDefinition = {
-  id: 'pumpswap',
-  name: 'PumpSwap AMM',
-  platformId: 'pumpswap',
-  networkId: NetworkId.solana,
-  contracts: [contract],
-};
-
-export const services: ServiceDefinition[] = [service];
-export default services;
+export const services: ServiceRaw[] = [];

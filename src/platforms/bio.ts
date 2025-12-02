@@ -1,7 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-
 export const platform: PlatformRaw = {
   id: "bio",
   name: "Bio",
@@ -18,33 +15,4 @@ export const platform: PlatformRaw = {
   tokens: ["bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ"],
 };
 
-const contract = {
-  name: 'Fundraising',
-  address: '6M3fyRE18t6c7f9qes3eQMzR4QyPRMFZiyNQcApENCYf',
-  platformId: platform.id,
-};
-
-const daoContract = {
-  name: 'Curating',
-  address: 'bioLd9krF2GytS6F7fw5bo8aUJzfbB15EWHtJAZQnAC',
-  platformId: platform.id,
-};
-
-const service: ServiceDefinition = {
-  id: `${platform.id}-fundraising`,
-  name: 'Fundraising',
-  platformId: platform.id,
-  networkId: NetworkId.solana,
-  contracts: [contract],
-};
-
-const serviceDao: ServiceDefinition = {
-  id: `${platform.id}-Curatiing`,
-  name: 'Curatiing',
-  platformId: platform.id,
-  networkId: NetworkId.solana,
-  contracts: [daoContract],
-};
-
-export const services: ServiceDefinition[] = [service, serviceDao];
-export default services;
+export const services: ServiceRaw[] = [];

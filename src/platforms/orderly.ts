@@ -1,8 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { Contract, NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-import { matchAnyInstructionWithPrograms } from '../utils/parseTransaction/matchAnyInstructionWithPrograms';
-
 export const platform: PlatformRaw = {
   id: "orderly",
   name: "Orderly",
@@ -22,43 +18,4 @@ export const platform: PlatformRaw = {
   tokens: ["ABt79MkRXUsoHuV2CVQT32YMXQhTparKFjmidQxgiQ6E"],
   tags: ["bridge", "dapp"],
 };
-
-const contract: Contract = {
-  name: `Orderly`,
-  address: 'ErBmAD61mGFKvrFNaTJuxoPwqrS8GgtwtqJTJVjFWx9Q',
-  platformId: platform.id,
-};
-
-const stakingContract: Contract = {
-  name: `Staking`,
-  address: '7X5WKxXLPy9TbJDFejq288HezLmWayZWudKMmUC2d9rB',
-  platformId: platform.id,
-};
-
-const stakingContract2: Contract = {
-  name: `Staking V2`,
-  address: 'GZGX6QfUo62VbPyYqPZS6t27Uke1dJmoAP6V3rw6ntTH',
-  platformId: platform.id,
-};
-
-export const services: ServiceDefinition[] = [
-  {
-    id: `${platform.id}`,
-    name: 'Orderly',
-    platformId: platform.id,
-    networkId: NetworkId.solana,
-    contracts: [contract],
-  },
-  {
-    id: `${platform.id}-staking`,
-    name: 'Staking',
-    platformId: platform.id,
-    networkId: NetworkId.solana,
-    matchTransaction: (tx) =>
-      matchAnyInstructionWithPrograms(tx, [
-        stakingContract.address,
-        stakingContract2.address,
-      ]),
-  },
-];
-export default services;
+export const services: ServiceRaw[] = [];

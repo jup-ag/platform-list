@@ -1,7 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { Contract, NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-
 export const platform: PlatformRaw = {
   id: "okx",
   name: "OKX",
@@ -12,33 +9,4 @@ export const platform: PlatformRaw = {
   },
   tags: ["bridge", "dapp"],
 };
-
-const aggregatorContract: Contract = {
-  name: `Aggregator`,
-  address: '6m2CDdhRgxpH4WjvdzxAYbGxwdGUz5MziiL5jek2kBma',
-  platformId: platform.id,
-};
-
-const aggregatorV6Contract: Contract = {
-  name: `Aggregator V6`,
-  address: 'proVF4pMXVaYqmy4NjniPh4pqKNfMmsihgd4wdkCX3u',
-  platformId: platform.id,
-};
-
-export const services: ServiceDefinition[] = [
-  {
-    id: `${platform.id}-aggregator`,
-    name: 'Aggregator',
-    platformId: platform.id,
-    networkId: NetworkId.solana,
-    contracts: [aggregatorContract],
-  },
-  {
-    id: `${platform.id}-aggregator-v6`,
-    name: 'Aggregator V6',
-    platformId: platform.id,
-    networkId: NetworkId.solana,
-    contracts: [aggregatorV6Contract],
-  },
-];
-export default services;
+export const services: ServiceRaw[] = [];

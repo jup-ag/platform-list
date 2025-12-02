@@ -1,7 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-
 export const platform: PlatformRaw = {
   id: "allbridge",
   name: "Allbridge",
@@ -20,33 +17,4 @@ export const platform: PlatformRaw = {
   },
 };
 
-const contract = {
-  name: 'Bridge',
-  address: 'BrdgN2RPzEMWF96ZbnnJaUtQDQx7VRXYaHHbYCBvceWB',
-  platformId: platform.id,
-};
-
-const stakingContract = {
-  name: 'Staking',
-  address: 'stk8xj8cygGKnFoLE1GL8vHABcHUbYrnPCkxdL5Pr2q',
-  platformId: platform.id,
-};
-
-const service: ServiceDefinition = {
-  id: `${platform.id}-bridge`,
-  name: 'Bridge',
-  platformId: platform.id,
-  networkId: NetworkId.solana,
-  contracts: [contract],
-};
-
-const stakingService: ServiceDefinition = {
-  id: `${platform.id}-staking`,
-  name: 'Staking',
-  platformId: platform.id,
-  networkId: NetworkId.solana,
-  contracts: [stakingContract],
-};
-
-export const services: ServiceDefinition[] = [service, stakingService];
-export default services;
+export const services: ServiceRaw[] = [];

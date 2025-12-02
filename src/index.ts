@@ -1,7 +1,6 @@
 import { platforms as platformsRaw } from "./platforms/index";
 import { services as servicesRaw } from "./platforms/index";
-import { Platform, Service, ServiceRaw, ContractRaw } from "./types";
-import { ServiceDefinition } from "./ServiceDefinition";
+import { Platform, Service } from "./types";
 
 export { Platform, Service } from "./types";
 export * from "./utils";
@@ -15,24 +14,15 @@ const platforms: Platform[] = platformsRaw.map(
 );
 
 const services: Service[] = servicesRaw.map(
-  (s: ServiceRaw | ServiceDefinition): Service => {
-    // Check if it's a ServiceDefinition (has contracts already)
-    if ('contracts' in s && s.contracts && !('contractsRaw' in s)) {
-      return s as Service;
-    }
-
-    // Otherwise, it's a ServiceRaw (has contractsRaw)
-    const serviceRaw = s as ServiceRaw;
-    return {
-      ...serviceRaw,
-      contracts: serviceRaw.contractsRaw.map((c: ContractRaw) => ({
-        ...c,
-        platformId: serviceRaw.platformId,
-        serviceId: serviceRaw.id,
-        networkId: serviceRaw.networkId,
-      })),
-    };
-  },
+  (s): Service => ({
+    ...s,
+    contracts: s.contractsRaw.map((c) => ({
+      ...c,
+      platformId: s.platformId,
+      serviceId: s.id,
+      networkId: s.networkId,
+    })),
+  }),
 );
 
 export { platforms, services };

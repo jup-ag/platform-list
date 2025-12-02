@@ -480,7 +480,7 @@ export const platforms: PlatformRaw[] = [
   zeus.platform,
 ];
 
-export const services: any[] = [
+export const services: ServiceRaw[] = [
   ..._01.services,
   ..._1inch.services,
   ...accessprotocol.services,

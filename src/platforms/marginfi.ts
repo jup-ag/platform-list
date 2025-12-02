@@ -1,7 +1,4 @@
 import { PlatformRaw, ServiceRaw } from "../types";
-import { NetworkId } from '@sonarwatch/portfolio-core';
-import { ServiceDefinition } from '../ServiceDefinition';
-
 export const platform: PlatformRaw = {
   id: "marginfi",
   name: "Marginfi",
@@ -18,20 +15,4 @@ export const platform: PlatformRaw = {
   tokens: ["LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp"],
   tags: ["dapp"],
 };
-
-const contract = {
-  name: 'Lending',
-  address: 'MFv2hWf31Z9kbCa1snEPYctwafyhdvnV7FZnsebVacA',
-  platformId: 'marginfi',
-};
-
-const service: ServiceDefinition = {
-  id: 'marginfi-lending',
-  name: 'Lending',
-  platformId: 'marginfi',
-  networkId: NetworkId.solana,
-  contracts: [contract],
-};
-
-export const services: ServiceDefinition[] = [service];
-export default services;
+export const services: ServiceRaw[] = [];
