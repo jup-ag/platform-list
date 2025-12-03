@@ -26,7 +26,18 @@ export const PlatformSchema = z.object({
       /^[a-z0-9][a-z0-9-]*$/,
       "Platform ID must be in kebab-case: lowercase letters, numbers, and hyphens only. Cannot start with a hyphen.",
     ),
-  name: z.string(),
+  name: z
+    .string()
+    .min(1, "Platform name must not be empty")
+    .max(80, "Platform name must not exceed 80 characters")
+    .regex(
+      /^[^\s].*[^\s]$|^[^\s]$/,
+      "Platform name must not start or end with whitespace",
+    )
+    .regex(
+      /^[a-zA-Z0-9\s\-.()'&_]+$/,
+      "Platform name can only contain letters, numbers, spaces, hyphens, underscores, periods, parentheses, apostrophes, and ampersands",
+    ),
   image: z.string().url(),
   tags: z.array(z.string()).min(1),
   links: z.object({
