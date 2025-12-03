@@ -28,6 +28,14 @@ const asrContract = {
   address: "Dis2TfkFnXFkrtvAktEkw37sdb7qwJgY6H7YZJwk51wK",
 };
 
+const governanceService: ServiceRaw = {
+  id: `jupiter-governance-vote`,
+  name: "Vote",
+  platformId: platform.id,
+  networkId: NetworkId.solana,
+  contractsRaw: [jupiterGovernanceContract, jupiterVoteContract],
+};
+
 const asrService: ServiceRaw = {
   id: `${platform.id}-asr`,
   name: "ASR",
