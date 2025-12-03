@@ -59,7 +59,7 @@ const restakingService: ServiceRaw = {
   id: `${platform.id}-restaking`,
   name: "Restaking",
   platformId: platform.id,
-  contractsRaw: [solayerContract, solanaStakePoolContract],
+  contractsRaw: [],
 };
 
 const airdropService: ServiceRaw = {
@@ -80,7 +80,7 @@ const delegateService: ServiceRaw = {
   id: `${platform.id}-delegate`,
   name: "Delegate",
   platformId: platform.id,
-  contractsRaw: [endoAvsContract, solayerContract, solanaStakePoolContract],
+  contractsRaw: [endoAvsContract],
 };
 
 export const services: ServiceRaw[] = [

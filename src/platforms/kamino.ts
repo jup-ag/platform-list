@@ -15,9 +15,6 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-import { contract } from "./dflow";
-import { expressRelayContract } from "./pyth";
-
 export const kaminoLendContract = {
   name: "Kamino Lend",
   address: "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
@@ -80,13 +77,6 @@ const kaminoLendingService: ServiceRaw = {
   contractsRaw: [kaminoLendContract],
 };
 
-const kaminoMultiplyService: ServiceRaw = {
-  id: `${platform.id}-multiply`,
-  name: "Multiply",
-  platformId: platform.id,
-  contractsRaw: [kaminoLendContract],
-};
-
 const kaminoLimitOrderService: ServiceRaw = {
   id: `${platform.id}-limit-order`,
   name: "Limit Order",
@@ -95,24 +85,10 @@ const kaminoLimitOrderService: ServiceRaw = {
 };
 
 const swapService: ServiceRaw = {
-  id: `${platform.id}-swap-dflow`,
+  id: `${platform.id}-swap`,
   name: "Swap",
   platformId: platform.id,
-  contractsRaw: [limitOrderContract, contract],
-};
-
-const swapJupiterService: ServiceRaw = {
-  id: `${platform.id}-swap-jupiter`,
-  name: "Swap",
-  platformId: platform.id,
-  contractsRaw: [limitOrderContract],
-};
-
-const swapPythService: ServiceRaw = {
-  id: `${platform.id}-swap-pyth`,
-  name: "Swap",
-  platformId: platform.id,
-  contractsRaw: [limitOrderContract, expressRelayContract],
+  contractsRaw: [],
 };
 
 const kaminoLiquidityService: ServiceRaw = {
@@ -139,11 +115,8 @@ const airdropService: ServiceRaw = {
 export const services: ServiceRaw[] = [
   scopePriceService,
   kaminoLendingService,
-  kaminoMultiplyService,
   kaminoLimitOrderService,
   swapService,
-  swapJupiterService,
-  swapPythService,
   kaminoLiquidityService,
   vaultLeverageService,
   airdropService,

@@ -25,12 +25,6 @@ export const saveContract = {
   networkId: NetworkId.solana,
 };
 
-const wrapperContract = {
-  name: "Wrapper",
-  address: "3JmCcXAjmBpFzHHuUpgJFfTQEQnAR7K1erNLtWV1g7d9",
-  networkId: NetworkId.solana,
-};
-
 const migrationContract = {
   name: "Save Migration",
   address: "S2SquuEfKRHm1riCj13WobJJzf3CgUwu7QmijxjpTfx",
@@ -57,13 +51,6 @@ const migrationService: ServiceRaw = {
   contractsRaw: [migrationContract],
 };
 
-const wrapperService: ServiceRaw = {
-  id: `${platform.id}-wrapper`,
-  name: "Wrapper",
-  platformId: platform.id,
-  contractsRaw: [wrapperContract],
-};
-
 const rewardService: ServiceRaw = {
   id: `${platform.id}-reward`,
   name: "Reward",
@@ -74,6 +61,5 @@ const rewardService: ServiceRaw = {
 export const services: ServiceRaw[] = [
   lendingService,
   migrationService,
-  wrapperService,
   rewardService,
 ];

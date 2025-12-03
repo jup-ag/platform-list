@@ -30,7 +30,7 @@ const bridgeService: ServiceRaw = {
   id: `${platform.id}-bridge`,
   name: "Bridge",
   platformId: platform.id,
-  contractsRaw: [contract],
+  contractsRaw: [],
 };
 
 export const services: ServiceRaw[] = [claimService, bridgeService];
