@@ -179,19 +179,23 @@ export default services;
 Some services may use multiple contracts (for example, a Multiply service that uses both a lending contract and a swap contract):
 
 ```typescript
-import { jupiterV6Contract } from "./jupiter-exchange";
 
 const lendingContract = {
   name: "Lending",
   address: "LendingProgramAddress",
 };
 
+const swapingContract = {
+  name : "Swap"
+  address : "SwapProgramAddress"
+}
+
 const multiplyService: ServiceRaw = {
   id: `${platform.id}-multiply`,
   name: "Multiply",
   platformId: platform.id,
   networkId: NetworkId.solana,
-  contractsRaw: [lendingContract, jupiterV6Contract],
+  contractsRaw: [lendingContract, swapingContract],
 };
 
 export const services: ServiceRaw[] = [multiplyService];
