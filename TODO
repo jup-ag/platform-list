@@ -1,2 +1,1 @@
 * Change the tokens prop in Platform (from string[] to addressId[])
-* Remove networkId prop in Service
