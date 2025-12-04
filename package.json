@@ -1,6 +1,6 @@
 {
   "name": "@jup-ag/platform-list",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,9 @@
   },
   "typesVersions": {
     "*": {
-      "platforms/*": ["./dist/platforms/*"]
+      "platforms/*": [
+        "./dist/platforms/*"
+      ]
     }
   },
   "files": [
