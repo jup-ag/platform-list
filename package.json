@@ -14,8 +14,14 @@
       "default": "./dist/index.js"
     },
     "./platforms/*": {
-      "types": "./dist/platforms/*.d.ts",
-      "default": "./dist/platforms/*.js"
+      "import": "./dist/platforms/*.js",
+      "require": "./dist/platforms/*.js",
+      "types": "./dist/platforms/*.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "platforms/*": ["./dist/platforms/*"]
     }
   },
   "files": [
