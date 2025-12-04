@@ -46,10 +46,10 @@ export const cnftService: ServiceRaw = {
 };
 
 export const metadataService: ServiceRaw = {
-  id: `${platform.id}-cnft`,
-  name: "Bubblegum (cNFT)",
+  id: `${platform.id}-metadata`,
+  name: "Token Metadata",
   platformId: platform.id,
-  contractsRaw: [bubblegumContract],
+  contractsRaw: [metaplexContract],
 };
 
 export const coreService: ServiceRaw = {
