@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-const contract = {
+export const contract = {
   name: "Main",
   address: "spicyTHtbmarmUxwFSHYpA8G4uP2nRNq38RReMpoZ9c",
   networkId: NetworkId.solana,
