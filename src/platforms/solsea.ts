@@ -16,17 +16,11 @@ export const contract = {
   networkId: NetworkId.solana,
 };
 
-const metaplexContract = {
-  name: "Metaplex",
-  address: "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
-  networkId: NetworkId.solana,
-};
-
 export const solanaStakingService: ServiceRaw = {
   id: `${platform.id}-marketplace`,
   name: "Marketplace",
   platformId: platform.id,
-  contractsRaw: [contract, metaplexContract],
+  contractsRaw: [contract],
 };
 
 export const services: ServiceRaw[] = [solanaStakingService];
