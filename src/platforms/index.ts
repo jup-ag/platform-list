@@ -87,6 +87,7 @@ import * as gpool from "./gpool";
 import * as graphite from "./graphite";
 import * as grass from "./grass";
 import * as guano from "./guano";
+import * as hastra from "./hastra";
 import * as haven from "./haven";
 import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
@@ -332,6 +333,7 @@ export const platforms: PlatformRaw[] = [
   graphite.platform,
   grass.platform,
   guano.platform,
+  hastra.platform,
   haven.platform,
   hawksight.platform,
   hedgehog.platform,
@@ -578,6 +580,7 @@ export const services: ServiceRaw[] = [
   ...graphite.services,
   ...grass.services,
   ...guano.services,
+  ...hastra.services,
   ...haven.services,
   ...hawksight.services,
   ...hedgehog.services,
