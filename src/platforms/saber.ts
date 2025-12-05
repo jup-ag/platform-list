@@ -8,6 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://saberdao.io/",
   },
+  tokens: ["Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"],
 };
 
 const stableswapContract = {
@@ -22,6 +23,12 @@ const swapContract = {
   networkId: NetworkId.solana,
 };
 
+const routerContract = {
+  name: "Router",
+  address: "Crt7UoUR6QgrFrN7j8rmSQpUTNWNSitSwWvsWGf1qZ5t",
+  networkId: NetworkId.solana,
+};
+
 export const swapService: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Swap",
@@ -29,4 +36,11 @@ export const swapService: ServiceRaw = {
   contractsRaw: [stableswapContract, swapContract],
 };
 
-export const services: ServiceRaw[] = [swapService];
+export const routerService: ServiceRaw = {
+  id: `${platform.id}-router`,
+  name: "Router",
+  platformId: platform.id,
+  contractsRaw: [routerContract],
+};
+
+export const services: ServiceRaw[] = [swapService, routerService];

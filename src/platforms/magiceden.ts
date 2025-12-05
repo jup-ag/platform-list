@@ -33,7 +33,7 @@ const distributionContract = {
 };
 
 const escrowContract = {
-  name: "MarketPlace",
+  name: "MarketPlace V2",
   address: "M2mx93ekt1fmXSVkTrUL9xVFHkmME8HTUi5Cyc5aF7K",
   networkId: NetworkId.solana,
 };
@@ -50,8 +50,14 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
+const auctionV1Contract = {
+  name: "Auction V1",
+  address: "EA15T2W45BJFm71XmB5VGcsiWGKZTNfnK6aCmE2Hb5eC",
+  networkId: NetworkId.solana,
+};
+
 const auctionContract = {
-  name: "Auction",
+  name: "Auction V2",
   address: "E8cU1WiRWjanGxmn96ewBgk9vPTcL6AEZ1t6F6fkgUWe",
   networkId: NetworkId.solana,
 };
@@ -64,7 +70,7 @@ const candyMachineContract = {
 
 export const escrowService: ServiceRaw = {
   id: `${platform.id}-marketPlace`,
-  name: "MarketPlace",
+  name: "MarketPlace V2",
   platformId: platform.id,
   contractsRaw: [escrowContract],
 };
@@ -76,9 +82,16 @@ export const stakingService: ServiceRaw = {
   contractsRaw: [stakingContract],
 };
 
-export const auctionService: ServiceRaw = {
-  id: `${platform.id}-auction`,
-  name: "Auction",
+export const auctionV1Service: ServiceRaw = {
+  id: `${platform.id}-auction-v1`,
+  name: "Auction V1",
+  platformId: platform.id,
+  contractsRaw: [auctionV1Contract],
+};
+
+export const auctionV2Service: ServiceRaw = {
+  id: `${platform.id}-auction-v2`,
+  name: "Auction V2",
   platformId: platform.id,
   contractsRaw: [auctionContract],
 };
@@ -114,7 +127,8 @@ export const airdropService: ServiceRaw = {
 export const services: ServiceRaw[] = [
   escrowService,
   stakingService,
-  auctionService,
+  auctionV1Service,
+  auctionV2Service,
   cnftService,
   launchpadService,
   ammService,

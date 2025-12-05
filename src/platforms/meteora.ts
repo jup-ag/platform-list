@@ -12,7 +12,10 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.meteora.ag/",
   },
   tags: ["dapp"],
-  tokens: ["METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL"],
+  tokens: [
+    "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+    "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
+  ],
 };
 const mercurialStableSwap: ContractRaw = {
   name: `Mercurial Stable Swap`,

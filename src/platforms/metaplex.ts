@@ -32,10 +32,23 @@ export const bubblegumContract = {
   networkId: NetworkId.solana,
 };
 
+const candyMachineV2Contract = {
+  name: "Candy Machine V2",
+  address: "cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ",
+  networkId: NetworkId.solana,
+};
+
 export const candyMachineContract = {
-  name: `Candy Machine`,
+  name: `Candy Machine V3`,
   address: "CMAGAKJ67e9hRZgfC5SFTbZH8MgEmtqazKXjmkaJjWTJ",
   networkId: NetworkId.solana,
+};
+
+export const candyMachineV2Service: ServiceRaw = {
+  id: `${platform.id}-candy-machine-v2`,
+  name: "Candy Machine V2",
+  platformId: platform.id,
+  contractsRaw: [candyMachineV2Contract],
 };
 
 export const cnftService: ServiceRaw = {
@@ -61,7 +74,7 @@ export const coreService: ServiceRaw = {
 
 export const candyMachineService: ServiceRaw = {
   id: `${platform.id}-candy-machine`,
-  name: "Candy Machine",
+  name: "Candy Machine V3",
   platformId: platform.id,
   contractsRaw: [candyMachineContract],
 };
@@ -71,4 +84,5 @@ export const services: ServiceRaw[] = [
   metadataService,
   coreService,
   candyMachineService,
+  candyMachineV2Service,
 ];

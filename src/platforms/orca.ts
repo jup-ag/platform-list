@@ -13,7 +13,10 @@ export const platform: PlatformRaw = {
     medium: "https://orca-so.medium.com/",
     documentation: "https://docs.orca.so/",
   },
-  tokens: ["orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"],
+  tokens: [
+    "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+    "xorcaYqbXUNz3474ubUMJAdu2xgPsew3rUCe5ughT3N",
+  ],
   tags: ["dapp"],
 };
 const pools: ContractRaw = {

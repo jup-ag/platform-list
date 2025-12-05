@@ -16,8 +16,14 @@ const mainContract = {
   networkId: NetworkId.solana,
 };
 
-const globalOfferContract = {
-  name: "Global Offer",
+const globalOfferV1Contract = {
+  name: "Global Offer V1",
+  address: "Gov2UZUUffrk1CYYSJu943sM6jAMF31zGz8uJywQKziY",
+  networkId: NetworkId.solana,
+};
+
+const globalOfferV2Contract = {
+  name: "Global Offer V2",
   address: "5ZfZAwP2m93waazg8DkrrVmsupeiPEvaEHowiUP7UAbJ",
   networkId: NetworkId.solana,
 };
@@ -29,11 +35,22 @@ export const stakingService: ServiceRaw = {
   contractsRaw: [mainContract],
 };
 
-export const globalOfferService: ServiceRaw = {
-  id: `${platform.id}-global-offer`,
-  name: "Global Offer",
+export const globalOfferV1Service: ServiceRaw = {
+  id: `${platform.id}-global-offer-v1`,
+  name: "Global Offer V1",
   platformId: platform.id,
-  contractsRaw: [globalOfferContract],
+  contractsRaw: [globalOfferV1Contract],
 };
 
-export const services: ServiceRaw[] = [stakingService, globalOfferService];
+export const globalOfferService: ServiceRaw = {
+  id: `${platform.id}-global-offer`,
+  name: "Global Offer V2",
+  platformId: platform.id,
+  contractsRaw: [globalOfferV2Contract],
+};
+
+export const services: ServiceRaw[] = [
+  stakingService,
+  globalOfferV1Service,
+  globalOfferService,
+];

@@ -17,17 +17,36 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-const contract = {
-  name: "Francium",
+const mainContract = {
+  name: "Main",
+  address: "2nAAsYdXF3eTQzaeUQS3fr4o782dDg8L28mX39Wr5j8N",
+  networkId: NetworkId.solana,
+};
+
+const orcaContract = {
+  name: "Orca",
+  address: "DmzAmomATKpNp2rCBfYLS7CSwQqeQTsgRYJA1oSSAJaP",
+  networkId: NetworkId.solana,
+};
+
+const lendingContract = {
+  name: "Lending",
   address: "FC81tbGt6JWRXidaWYFXxGnTk4VgobhJHATvTRVMqgWj",
   networkId: NetworkId.solana,
 };
 
-export const service: ServiceRaw = {
-  id: "francium-lending",
-  name: "Francium",
+export const lendingService: ServiceRaw = {
+  id: `${platform.id}-lending`,
+  name: "Lending",
   platformId: platform.id,
-  contractsRaw: [contract],
+  contractsRaw: [mainContract, lendingContract],
 };
 
-export const services: ServiceRaw[] = [service];
+export const orcaService: ServiceRaw = {
+  id: `${platform.id}-orca`,
+  name: "Orca",
+  platformId: platform.id,
+  contractsRaw: [orcaContract],
+};
+
+export const services: ServiceRaw[] = [orcaService, lendingService];
