@@ -132,6 +132,13 @@ export const delegateService: ServiceRaw = {
   contractsRaw: [],
 };
 
+export const setAuthorityService: ServiceRaw = {
+  id: `${platform.id}-set-authority`,
+  name: "Set Authority",
+  platformId: platform.id,
+  contractsRaw: [],
+};
+
 export {
   solanaStakingContract,
   solanaStakePoolContract,
@@ -148,4 +155,5 @@ export const services: ServiceRaw[] = [
   transferService,
   burnService,
   delegateService,
+  setAuthorityService,
 ];

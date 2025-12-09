@@ -56,6 +56,8 @@ export const programIds = [
   "rAte14X4CFgBXqPLEhmcLxkXVRoFthL3fcbBHVuvmxo",
   "raTEMK3K8ahgwLuWUHEvp7aJXjVmcbNgj8XmQVMgt5q",
   "RateFzvQT8Dz2HqDHAQj22ujp8B5kaBm2FUUkSoLgZm",
+  "raTEkEMFeDsvsELyQ5CMk4dS8Yhh3wyXXRL6QESd7p2",
+  "rAtEYiVSYnNEDcwqrFGwCbi7gFDYCssu2vmdozzyv4Q",
 ];
 
 export const service: ServiceRaw = {
