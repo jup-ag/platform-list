@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { PlatformRaw, ServiceRaw, NetworkId, ContractRaw } from "../types";
 
 export const platform: PlatformRaw = {
   id: "jupiter-exchange",
@@ -20,7 +20,7 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-export const jupiterV7Contract = {
+export const jupiterV7Contract: ContractRaw = {
   name: "Swap V7",
   address: "JUP7pNXFL1G2BESRYMtZ1jepzfDQVffkkkf5JhXWWhC",
   networkId: NetworkId.solana,
@@ -139,6 +139,9 @@ export const swapV7Service: ServiceRaw = {
   name: "Swap v7",
   platformId: platform.id,
   contractsRaw: [jupiterV7Contract],
+  link: "https://jup.ag/swap",
+  description:
+    "The swap service allows users to exchange one cryptocurrency for another directly through the Jupiter platform, leveraging its DEX aggregation capabilities to find the best rates across multiple liquidity sources.",
 };
 
 export const swapV6Service: ServiceRaw = {
@@ -188,6 +191,8 @@ export const gaslessSwapService: ServiceRaw = {
   name: "Gasless Swap",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Gasless swaps allow users to perform token swaps without needing to hold SOL for transaction fees, as the platform covers these costs on behalf of the user.",
 };
 
 export const apeService: ServiceRaw = {
@@ -202,6 +207,8 @@ export const jupiterZService: ServiceRaw = {
   name: "JupiterZ",
   platformId: platform.id,
   contractsRaw: [rfqContract],
+  description:
+    "JupiterZ is a request-for-quote (RFQ) service that enables users to obtain personalized trade quotes for large or complex transactions, ensuring optimal pricing and execution through direct negotiation with liquidity providers.",
 };
 
 export const limitV2Service: ServiceRaw = {
@@ -209,6 +216,9 @@ export const limitV2Service: ServiceRaw = {
   name: "Limit v2",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "The limit order service allows users to set limit orders for token swaps, enabling them to specify the desired price at which they want to buy or sell a cryptocurrency. This service enhances trading flexibility and control over execution prices.",
+  link: "https://jup.ag/?tab=limit",
 };
 
 export const limitV1Service: ServiceRaw = {
@@ -230,6 +240,9 @@ export const dcaService: ServiceRaw = {
   name: "DCA",
   platformId: platform.id,
   contractsRaw: [jupiterDcaContract],
+  link: "https://jup.ag/?tab=recurring",
+  description:
+    "The DCA (Dollar-Cost Averaging) service enables users to set up recurring purchases of cryptocurrencies at regular intervals, helping to mitigate the impact of market volatility and build positions over time in a disciplined manner.",
 };
 
 export const dcaDepositService: ServiceRaw = {
@@ -251,6 +264,9 @@ export const lockService: ServiceRaw = {
   name: "Lock",
   platformId: platform.id,
   contractsRaw: [jupiterLockContract],
+  link: "https://lock.jup.ag/",
+  description:
+    "The lock service allows users to securely lock their tokens for a specified period, providing benefits such as earning rewards or participating in governance. This feature enhances token utility and encourages long-term holding.",
 };
 
 export const perpsService: ServiceRaw = {
@@ -258,6 +274,9 @@ export const perpsService: ServiceRaw = {
   name: "Perps",
   platformId: platform.id,
   contractsRaw: [jupiterPerpsContract],
+  link: "https://jup.ag/perps",
+  description:
+    "The perpetuals (perps) service offers users the ability to trade perpetual futures contracts on various cryptocurrencies, allowing for leveraged trading and hedging strategies without an expiration date. This service provides advanced trading options for experienced users.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -279,6 +298,9 @@ export const lendService: ServiceRaw = {
   name: "Lend",
   platformId: platform.id,
   contractsRaw: [lendContract, lendVaultsContract],
+  link: "https://jup.ag/lend",
+  description:
+    "The lend service allows users to lend their cryptocurrencies to earn interest, providing a way to generate passive income from idle assets. This service facilitates liquidity provision and supports the broader DeFi ecosystem.",
 };
 
 export const services: ServiceRaw[] = [
