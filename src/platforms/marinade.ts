@@ -2,8 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "marinade",
   name: "Marinade",
-  description:
-    "Marinade connects SOL holders with the best staking rates.",
+  description: "Marinade connects SOL holders with the best staking rates.",
   defiLlamaId: "parent#marinade-finance",
   links: {
     website: "https://marinade.finance/",
