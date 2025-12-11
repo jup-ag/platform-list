@@ -247,6 +247,7 @@ import * as tiplink from "./tiplink";
 import * as titan from "./titan";
 import * as triad from "./triad";
 import * as tribeca from "./tribeca";
+import * as trustfun from "./trustfun";
 import * as tuktuk from "./tuktuk";
 import * as tulip from "./tulip";
 import * as underdog from "./underdog";
@@ -514,6 +515,7 @@ export const platforms: PlatformRaw[] = [
   titan.platform,
   triad.platform,
   tribeca.platform,
+  trustfun.platform,
   tuktuk.platform,
   tulip.platform,
   underdog.platform,
@@ -782,6 +784,7 @@ export const services: ServiceRaw[] = [
   ...titan.services,
   ...triad.services,
   ...tribeca.services,
+  ...trustfun.services,
   ...tuktuk.services,
   ...tulip.services,
   ...underdog.services,
