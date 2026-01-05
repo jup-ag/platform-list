@@ -41,6 +41,7 @@ import * as candle from "./candle";
 import * as carrot from "./carrot";
 import * as cashmere from "./cashmere";
 import * as cega from "./cega";
+import * as chopcorp from "./chopcorp";
 import * as circle from "./circle";
 import * as circuit from "./circuit";
 import * as citrus from "./citrus";
@@ -308,6 +309,7 @@ export const platforms: PlatformRaw[] = [
   carrot.platform,
   cashmere.platform,
   cega.platform,
+  chopcorp.platform,
   circle.platform,
   circuit.platform,
   citrus.platform,
@@ -576,6 +578,7 @@ export const services: ServiceRaw[] = [
   ...carrot.services,
   ...cashmere.services,
   ...cega.services,
+  ...chopcorp.services,
   ...circle.services,
   ...circuit.services,
   ...citrus.services,
