@@ -114,6 +114,7 @@ import * as holdium from "./holdium";
 import * as honeyland from "./honeyland";
 import * as hubble from "./hubble";
 import * as huma from "./huma";
+import * as humidifi from "./humidifi";
 import * as hxro from "./hxro";
 import * as hylo from "./hylo";
 import * as iloop from "./iloop";
@@ -394,6 +395,7 @@ export const platforms: PlatformRaw[] = [
   honeyland.platform,
   hubble.platform,
   huma.platform,
+  humidifi.platform,
   hxro.platform,
   hylo.platform,
   iloop.platform,
@@ -675,6 +677,7 @@ export const services: ServiceRaw[] = [
   ...honeyland.services,
   ...hubble.services,
   ...huma.services,
+  ...humidifi.services,
   ...hxro.services,
   ...hylo.services,
   ...iloop.services,

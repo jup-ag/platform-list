@@ -14,3 +14,5 @@ export const platform: PlatformRaw = {
   tokens: ["WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"],
   tags: ["liquidity-provider"],
 };
+
+export const services = [];
