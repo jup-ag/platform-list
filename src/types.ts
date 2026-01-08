@@ -42,7 +42,14 @@ export type PlatformTag =
   | "depin"
   | "desci"
   | "fitness"
-  | "liquidity-provider";
+  | "liquidity-provider"
+  | "lending"
+  | "rwa"
+  | "institutional"
+  | "prediction"
+  | "trading"
+  | "infrastructure"
+  | "amm";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 

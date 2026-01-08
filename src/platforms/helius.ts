@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/helius-labs",
     documentation: "https://www.helius.dev/docs",
   },
-  tags: ["tool"],
+  tags: ["tool", "infrastructure"],
 };
 
 export const billingService: ServiceRaw = {
