@@ -8,8 +8,8 @@ export const platform: PlatformRaw = {
   defiLlamaId: "humidifi",
   addedAt: 1767865388000,
   links: {
-    website: "https://humidifi.io/",
-    twitter: "https://x.com/humidifi_",
+    website: "https://humidifi.xyz/",
+    twitter: "https://x.com/humidifi",
   },
   tokens: ["WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"],
   tags: ["liquidity-provider"],
