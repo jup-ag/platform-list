@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Maple",
   description:
     "Maple Finance is an institutional lending protocol offering fixed-income yield products and undercollateralized loans across multiple chains including Solana.",
-  defiLlamaId: "parent#maple-finance",
+  defiLlamaId: "maple-finance",
   links: {
     website: "https://www.maple.finance/",
     twitter: "https://x.com/maplefinance",

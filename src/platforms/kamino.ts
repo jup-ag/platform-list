@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Kamino",
   description:
     "Kamino is a DeFi protocol offering lending, borrowing, automated liquidity vaults, and leverage products.",
-  defiLlamaId: "parent#kamino-finance",
+  defiLlamaId: "kamino-finance",
   links: {
     website: "https://kamino.finance/",
     discord: "https://discord.com/invite/kaminofinance",

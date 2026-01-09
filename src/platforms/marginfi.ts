@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Marginfi",
   description:
     "Marginfi is a decentralized lending and borrowing protocol offering isolated risk pools, cross-margin positions, and integrated yield strategies.",
-  defiLlamaId: "parent#marginfi",
+  defiLlamaId: "marginfi",
   links: {
     website: "https://www.marginfi.com/",
     telegram: "https://t.me/mrgnteam",

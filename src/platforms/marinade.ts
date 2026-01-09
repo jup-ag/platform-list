@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "marinade",
   name: "Marinade",
   description: "Marinade connects SOL holders with the best staking rates.",
-  defiLlamaId: "parent#marinade-finance",
+  defiLlamaId: "marinade-finance",
   links: {
     website: "https://marinade.finance/",
     discord: "https://discord.gg/yTdH8YkYKg",

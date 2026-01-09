@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Sanctum",
   description:
     "Sanctum is a liquid staking protocol that provides unified liquidity for LSTs, enabling instant swaps between any liquid staking tokens and native SOL.",
-  defiLlamaId: "parent#sanctum",
+  defiLlamaId: "sanctum",
   tags: ["lst", "dapp", "defi"],
   links: {
     website: "https://www.sanctum.so/",

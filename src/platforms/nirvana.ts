@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Nirvana",
   description:
     "Nirvana was a stablecoin protocol offering ANA, a partially-collateralized asset with a rising floor price, and NIRV superstable token.",
-  defiLlamaId: "parent#nirvana",
+  defiLlamaId: "nirvana",
   tags: ["dapp", "defi"],
   links: {
     website: "https://www.nirvana.finance/",

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Mango",
   description:
     "Mango Markets is a decentralized trading platform that offered perpetuals, spot trading, and lending with cross-collateralization.",
-  defiLlamaId: "parent#mango-markets",
+  defiLlamaId: "mango-markets",
   isDeprecated: true,
   links: {
     website: "https://mango.markets/",

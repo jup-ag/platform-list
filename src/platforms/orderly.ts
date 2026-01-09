@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Orderly",
   description:
     "Orderly is an omnichain CLOB infrastructure.It's the ultimate trading lego for seamless integration by any builder on any blockchain. Give your app the transparency and composability of DEXs, with the speed and performance of CEXs.",
-  defiLlamaId: "parent#orderly",
+  defiLlamaId: "orderly",
   links: {
     website: "https://orderly.network/",
     discord: "https://discord.com/invite/orderlynetwork",

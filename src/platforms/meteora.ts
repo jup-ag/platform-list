@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Meteora",
   description:
     "Meteora is a DeFi protocol offering dynamic liquidity pools (DLMM), vaults, stable swaps, and token launch infrastructure.",
-  defiLlamaId: "parent#meteora",
+  defiLlamaId: "meteora",
   links: {
     website: "https://meteora.ag/",
     discord: "https://discord.gg/WwFwsVtvpH",

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Parcl",
   description:
     "Parcl is a decentralized real estate trading protocol that enables users to trade perpetual contracts on real estate price indices.",
-  defiLlamaId: "parent#parcl",
+  defiLlamaId: "parcl",
   links: {
     website: "https://app.parcl.co/",
     discord: "https://discord.gg/parcl",
