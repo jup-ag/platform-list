@@ -158,6 +158,7 @@ import * as maestro from "./maestro";
 import * as magiceden from "./magiceden";
 import * as magna from "./magna";
 import * as mango from "./mango";
+import * as manifest from "./manifest";
 import * as maple from "./maple";
 import * as marginfi from "./marginfi";
 import * as marinade from "./marinade";
@@ -452,6 +453,7 @@ export const platforms: PlatformRaw[] = [
   magiceden.platform,
   magna.platform,
   mango.platform,
+  manifest.platform,
   maple.platform,
   marginfi.platform,
   marinade.platform,
@@ -747,6 +749,7 @@ export const services: ServiceRaw[] = [
   ...magiceden.services,
   ...magna.services,
   ...mango.services,
+  ...manifest.services,
   ...maple.services,
   ...marginfi.services,
   ...marinade.services,
