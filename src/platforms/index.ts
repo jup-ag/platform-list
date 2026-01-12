@@ -253,6 +253,7 @@ import * as solsave from "./solsave";
 import * as solsea from "./solsea";
 import * as solstice from "./solstice";
 import * as solv from "./solv";
+import * as sonarwatch from "./sonarwatch";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
 import * as spice from "./spice";
@@ -271,6 +272,7 @@ import * as texture from "./texture";
 import * as thevault from "./thevault";
 import * as tiplink from "./tiplink";
 import * as titan from "./titan";
+import * as trepa from "./trepa";
 import * as triad from "./triad";
 import * as tribeca from "./tribeca";
 import * as trustfun from "./trustfun";
@@ -548,6 +550,7 @@ export const platforms: PlatformRaw[] = [
   solsea.platform,
   solstice.platform,
   solv.platform,
+  sonarwatch.platform,
   sonic.platform,
   spdr.platform,
   spice.platform,
@@ -566,6 +569,7 @@ export const platforms: PlatformRaw[] = [
   thevault.platform,
   tiplink.platform,
   titan.platform,
+  trepa.platform,
   triad.platform,
   tribeca.platform,
   trustfun.platform,
@@ -844,6 +848,7 @@ export const services: ServiceRaw[] = [
   ...solsea.services,
   ...solstice.services,
   ...solv.services,
+  ...sonarwatch.services,
   ...sonic.services,
   ...spdr.services,
   ...spice.services,
@@ -862,6 +867,7 @@ export const services: ServiceRaw[] = [
   ...thevault.services,
   ...tiplink.services,
   ...titan.services,
+  ...trepa.services,
   ...triad.services,
   ...tribeca.services,
   ...trustfun.services,
