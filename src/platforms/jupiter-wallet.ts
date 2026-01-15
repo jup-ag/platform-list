@@ -8,6 +8,7 @@ export const platform: PlatformRaw = {
     website:
       "https://chromewebstore.google.com/detail/Jupiter%20Wallet/iledlaeogohbilgbfhmbgkgmpplbfboh",
   },
+  platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
   tags: ["wallet"],
 };
 

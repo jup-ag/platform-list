@@ -11,7 +11,9 @@ export const platform: PlatformRaw = {
     github: "https://github.com/pancakeswap/",
   },
   tags: ["dex", "dapp"],
+  platformToken: "4qQeZ5LwSz6HuupUu8jCtgXyW1mYQcNbFAW1sWZp89HL",
 };
+
 const contract: ContractRaw = {
   name: `PancakeSwap`,
   address: "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",

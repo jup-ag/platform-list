@@ -8,6 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://lfg.jup.ag/",
     twitter: "https://x.com/JupiterExchange",
   },
+  platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
   tags: ["tool"],
 };
 

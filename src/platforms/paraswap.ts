@@ -13,5 +13,6 @@ export const platform: PlatformRaw = {
     documentation: "https://developers.paraswap.network/",
   },
   tags: ["tool", "dex", "dapp", "defi", "bridge"],
+  isDeprecated: true,
 };
 export const services: ServiceRaw[] = [];

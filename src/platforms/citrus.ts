@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://citrus.famousfoxes.com/faq",
   },
   tags: ["dapp", "lending", "defi"],
+  platformToken: "FoXyMu5xwXre7zEoSvzViRk3nGawHUp9kUh97y2NDhcq",
 };
 
 const lendingContract = {

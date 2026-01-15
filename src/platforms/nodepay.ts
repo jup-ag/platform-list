@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/nodepaycommunitychat",
   },
   addedAt: 1761912000000,
+  platformToken: "B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE",
 };
 
 const stakingContract = {

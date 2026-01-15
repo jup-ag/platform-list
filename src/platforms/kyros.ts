@@ -11,7 +11,12 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/kyrosfi",
     discord: "https://discord.gg/kyros",
   },
-  tokens: ["kySo1nETpsZE2NWe5vj2C64mPSciH1SppmHb4XieQ7B"],
+  tokens: [
+    "kySo1nETpsZE2NWe5vj2C64mPSciH1SppmHb4XieQ7B",
+    "kyJtowDDACsJDm2jr3VZdpCA6pZcKAaNftQwrJ8KBQP",
+    "kyKYFGGhy5YAg6Yotedj7ZtByUBepsraT4BFkF3Uxmk",
+  ],
+  platformToken: "kyrosJC2dtm6EoLV5wffZsS4RZVm2hRafKZCLsc38JE",
 };
 
 const contract = {

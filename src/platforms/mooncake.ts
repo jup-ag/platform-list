@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/mooncake_fi",
   },
   tags: ["dapp", "trading", "defi", "vault"],
+  platformToken: "J1wnHdKvP34fg7TtYdX63UPJMTdXNzJGEqfNJB22vKjU",
 };
 
 const contract = {
