@@ -13,6 +13,7 @@ import * as aldrin from "./aldrin";
 import * as allbridge from "./allbridge";
 import * as alldomains from "./alldomains";
 import * as altude from "./altude";
+import * as amppay from "./amppay";
 import * as amulet from "./amulet";
 import * as armada from "./armada";
 import * as artrade from "./artrade";
@@ -137,6 +138,7 @@ import * as jupiterLaunchpad from "./jupiter-launchpad";
 import * as jupiterPm from "./jupiter-pm";
 import * as jupiterWallet from "./jupiter-wallet";
 import * as kamino from "./kamino";
+import * as kast from "./kast";
 import * as katana from "./katana";
 import * as kineko from "./kineko";
 import * as kishu from "./kishu";
@@ -248,6 +250,7 @@ import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solanart from "./solanart";
 import * as solayer from "./solayer";
+import * as solcard from "./solcard";
 import * as solcasino from "./solcasino";
 import * as solflare from "./solflare";
 import * as solincinerator from "./solincinerator";
@@ -281,6 +284,7 @@ import * as trojan from "./trojan";
 import * as trustfun from "./trustfun";
 import * as tuktuk from "./tuktuk";
 import * as tulip from "./tulip";
+import * as tuyo from "./tuyo";
 import * as underdog from "./underdog";
 import * as uprock from "./uprock";
 import * as uxd from "./uxd";
@@ -313,6 +317,7 @@ export const platforms: PlatformRaw[] = [
   allbridge.platform,
   alldomains.platform,
   altude.platform,
+  amppay.platform,
   amulet.platform,
   armada.platform,
   artrade.platform,
@@ -437,6 +442,7 @@ export const platforms: PlatformRaw[] = [
   jupiterPm.platform,
   jupiterWallet.platform,
   kamino.platform,
+  kast.platform,
   katana.platform,
   kineko.platform,
   kishu.platform,
@@ -548,6 +554,7 @@ export const platforms: PlatformRaw[] = [
   solanaid.platform,
   solanart.platform,
   solayer.platform,
+  solcard.platform,
   solcasino.platform,
   solflare.platform,
   solincinerator.platform,
@@ -581,6 +588,7 @@ export const platforms: PlatformRaw[] = [
   trustfun.platform,
   tuktuk.platform,
   tulip.platform,
+  tuyo.platform,
   underdog.platform,
   uprock.platform,
   uxd.platform,
@@ -614,6 +622,7 @@ export const services: ServiceRaw[] = [
   ...allbridge.services,
   ...alldomains.services,
   ...altude.services,
+  ...amppay.services,
   ...amulet.services,
   ...armada.services,
   ...artrade.services,
@@ -738,6 +747,7 @@ export const services: ServiceRaw[] = [
   ...jupiterPm.services,
   ...jupiterWallet.services,
   ...kamino.services,
+  ...kast.services,
   ...katana.services,
   ...kineko.services,
   ...kishu.services,
@@ -849,6 +859,7 @@ export const services: ServiceRaw[] = [
   ...solanaid.services,
   ...solanart.services,
   ...solayer.services,
+  ...solcard.services,
   ...solcasino.services,
   ...solflare.services,
   ...solincinerator.services,
@@ -882,6 +893,7 @@ export const services: ServiceRaw[] = [
   ...trustfun.services,
   ...tuktuk.services,
   ...tulip.services,
+  ...tuyo.services,
   ...underdog.services,
   ...uprock.services,
   ...uxd.services,
