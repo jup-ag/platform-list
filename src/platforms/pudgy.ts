@@ -8,7 +8,6 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/pudgypenguins",
     twitter: "https://x.com/pudgypenguins",
   },
-  tokens: ["2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"],
   tags: ["nft-collection"],
   platformToken: "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
 };
