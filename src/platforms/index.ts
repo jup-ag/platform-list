@@ -259,7 +259,6 @@ import * as spdr from "./spdr";
 import * as spice from "./spice";
 import * as squads from "./squads";
 import * as stabble from "./stabble";
-import * as stakewise from "./stakewise";
 import * as stakewiz from "./stakewiz";
 import * as staratlas from "./staratlas";
 import * as stepfinance from "./stepfinance";
@@ -556,7 +555,6 @@ export const platforms: PlatformRaw[] = [
   spice.platform,
   squads.platform,
   stabble.platform,
-  stakewise.platform,
   stakewiz.platform,
   staratlas.platform,
   stepfinance.platform,
@@ -854,7 +852,6 @@ export const services: ServiceRaw[] = [
   ...spice.services,
   ...squads.services,
   ...stabble.services,
-  ...stakewise.services,
   ...stakewiz.services,
   ...staratlas.services,
   ...stepfinance.services,
