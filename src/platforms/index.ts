@@ -24,6 +24,7 @@ import * as axiom from "./axiom";
 import * as backedfinance from "./backedfinance";
 import * as backpack from "./backpack";
 import * as backwoods from "./backwoods";
+import * as bags from "./bags";
 import * as bananagun from "./bananagun";
 import * as banger from "./banger";
 import * as banx from "./banx";
@@ -330,6 +331,7 @@ export const platforms: PlatformRaw[] = [
   backedfinance.platform,
   backpack.platform,
   backwoods.platform,
+  bags.platform,
   bananagun.platform,
   banger.platform,
   banx.platform,
@@ -637,6 +639,7 @@ export const services: ServiceRaw[] = [
   ...backedfinance.services,
   ...backpack.services,
   ...backwoods.services,
+  ...bags.services,
   ...bananagun.services,
   ...banger.services,
   ...banx.services,
