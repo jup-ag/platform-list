@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Metaplex",
   description:
     "Metaplex is the NFT standard and infrastructure protocol for Solana, providing token metadata, compressed NFTs (Bubblegum), and Candy Machine for minting.",
+  defiLlamaId: "metaplex",
   links: {
     website: "https://metaplex.com",
     discord: "https://discord.gg/metaplex",

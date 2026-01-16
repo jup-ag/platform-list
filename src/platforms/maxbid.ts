@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Maxbid Pro",
   description:
     "Maxbid Pro is a decentralized leverage trading platform specializing in memecoins, offering non-custodial spot margin trading via Jupiter routing.",
+  defiLlamaId: "maxbid",
   links: {
     website: "https://maxbid.pro/trade",
     twitter: "https://x.com/maxbidbro",

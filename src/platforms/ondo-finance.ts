@@ -15,6 +15,6 @@ export const platform: PlatformRaw = {
     "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
     "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
   ],
-  tags: ["dapp", "rwa", "institutional", "rwa"],
+  tags: ["dapp", "rwa", "institutional"],
 };
 export const services: ServiceRaw[] = [];

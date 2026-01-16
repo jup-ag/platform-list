@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/btcsol_co",
     documentation: "https://docs.btcsol.co/",
   },
+  defiLlamaId: "zeus-btcsol",
   tokens: ["BSoLov7Es6mGLkBq7Z89PSWDmk6Vsw4jVxdfE2UHrJTX"],
 };
 

@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Manifest is the 3rd-generation on-chain orderbook built on Solana.",
   tags: ["dex"],
+  defiLlamaId: "manifest-trade",
   links: {
     website: "https://manifest.trade/",
     telegram: "https://t.me/manifest_trade",

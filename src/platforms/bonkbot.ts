@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/bonkbot_io",
     documentation: "https://docs.bonkbot.io/",
   },
+  defiLlamaId: "bonkbot",
   tags: ["tool", "dapp"],
 };
 

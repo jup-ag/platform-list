@@ -3,6 +3,7 @@ export const platform: PlatformRaw = {
   id: "magiceden",
   name: "MagicEden",
   description: "The NFT Marketplace.",
+  defiLlamaId: "magiceden",
   links: {
     website: "https://magiceden.io/solana",
     discord: "https://discord.gg/magiceden",

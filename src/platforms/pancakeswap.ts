@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "PancakeSwap",
   description:
     "PancakeSwap is a multi-chain DEX offering token swaps, liquidity provision, and yield farming across multiple networks.",
+  defiLlamaId: "pancakeswap",
   links: {
     website: "https://solana.pancakeswap.finance/",
     twitter: "https://x.com/pancakeswap",

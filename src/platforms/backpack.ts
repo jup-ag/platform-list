@@ -9,7 +9,8 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/backpack",
     discord: "https://discord.com/invite/backpack",
   },
-  tags: ["wallet"],
+  defiLlamaId: "backpack",
+  tags: ["wallet", "cex"],
 };
 
 export const services: ServiceRaw[] = [];

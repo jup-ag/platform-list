@@ -7,6 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://openloop.so/",
   },
+  isDeprecated: true,
   tags: ["depin"],
 };
 

@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/dflow",
     twitter: "https://x.com/dflow",
   },
+  defiLlamaId: "dflow",
   tags: ["dapp", "bridge", "prediction"],
 };
 

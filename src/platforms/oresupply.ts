@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "OreSupply",
   description:
     "ORE Supply is the original proof-of-work mining protocol enabling users to mine ORE tokens using computational puzzles.",
+  defiLlamaId: "ore-protocol",
   tags: ["tool"],
   links: {
     website: "https://ore.supply/",

@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/dzYKMkQQKk",
     telegram: "https://t.me/CollectorChat",
   },
+  defiLlamaId: "collector-crypt",
   tags: ["rwa", "nft-marketplace"],
   platformToken: "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
 };

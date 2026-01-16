@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Cytonic",
   description:
     "Cytonic is a multi-virtual-machine Layer 1 blockchain enabling atomic cross-chain swaps between EVM and SVM chains like Ethereum and Solana.",
-  tags: ["bridge", "tool", "dapp", "bridge", "infrastructure"],
+  tags: ["bridge", "tool", "dapp", "infrastructure"],
   links: {
     website: "https://www.cytonic.com/",
     discord: "https://discord.com/invite/cytonic",

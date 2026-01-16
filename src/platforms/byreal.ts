@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Byreal is a hybrid DEX by Bybit combining concentrated liquidity (CLMM) with Request-for-Quote (RFQ) routing for low-slippage, MEV-protected trades.",
   tags: ["dapp"],
+  defiLlamaId: "byreal",
   links: {
     website: "https://www.byreal.io/",
     telegram: "https://t.me/Byreal_Community",

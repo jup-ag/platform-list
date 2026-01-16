@@ -8,6 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://staking.theakuma.xyz",
   },
+  platformToken: "AKUjRM9ZcE8t4mQWGX8ToroNjrTSYvNR3bBfFMzY7ahb",
 };
 
 export const services: ServiceRaw[] = [];

@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   name: "Mooncake",
   description:
     "Mooncake is a permissionless tokenized perpetual market offering leveraged tokens for long and short exposure.",
+  defiLlamaId: "mooncake",
   links: {
     website: "https://app.mooncake.fi/",
     documentation: "https://docs.mooncake.fi/",

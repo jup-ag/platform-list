@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "OnRe",
   description:
     "OnRe is a yield-bearing stablecoin protocol offering a dollar-pegged asset with built-in yield.",
+  defiLlamaId: "onre",
   links: {
     website: "https://www.onre.finance/",
     twitter: "https://x.com/onrefinance",

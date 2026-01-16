@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Sandglass",
   description:
     "A yield trading protocol on Solana that enables users to trade future yields",
+  defiLlamaId: "sandglass",
   links: {
     website: "https://sandglass.so/",
     discord: "https://discord.gg/jSNe84QZ67",

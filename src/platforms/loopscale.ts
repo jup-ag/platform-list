@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Loopscale",
   description:
     "Loopscale is an order-book based lending protocol that matches lenders and borrowers directly for customizable loan terms on any asset.",
+  defiLlamaId: "loopscale",
   links: {
     website: "https://loopscale.com/",
     discord: "https://discord.gg/loopscale",
