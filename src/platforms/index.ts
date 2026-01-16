@@ -20,6 +20,7 @@ import * as artrade from "./artrade";
 import * as asgardfi from "./asgardfi";
 import * as atrix from "./atrix";
 import * as aurory from "./aurory";
+import * as axiom from "./axiom";
 import * as backedfinance from "./backedfinance";
 import * as backpack from "./backpack";
 import * as backwoods from "./backwoods";
@@ -325,6 +326,7 @@ export const platforms: PlatformRaw[] = [
   asgardfi.platform,
   atrix.platform,
   aurory.platform,
+  axiom.platform,
   backedfinance.platform,
   backpack.platform,
   backwoods.platform,
@@ -631,6 +633,7 @@ export const services: ServiceRaw[] = [
   ...asgardfi.services,
   ...atrix.services,
   ...aurory.services,
+  ...axiom.services,
   ...backedfinance.services,
   ...backpack.services,
   ...backwoods.services,
