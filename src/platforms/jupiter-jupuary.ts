@@ -9,7 +9,6 @@ export const platform: PlatformRaw = {
     website: "https://jupuary.jup.ag/",
     twitter: "https://x.com/JupiterExchange",
   },
-  platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
   tags: ["dao"],
 };
 
