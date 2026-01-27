@@ -13,6 +13,7 @@ export type Platform = {
   platformToken?: string;
   tokens?: string[];
   tags: PlatformTag[];
+  parentId?: string;
   links: {
     website: string;
     discord?: string;

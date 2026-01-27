@@ -1,4 +1,5 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { platform as jupiterPlatform } from "./jupiter-exchange";
 
 export const platform: PlatformRaw = {
   id: "jupiter-governance",
@@ -8,8 +9,8 @@ export const platform: PlatformRaw = {
     website: "https://vote.jup.ag/",
     twitter: "https://x.com/jup_dao",
   },
-  platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
   tags: ["dao", "dapp"],
+  parentId: jupiterPlatform.id,
 };
 
 export const jupiterGovernanceContract = {

@@ -1,4 +1,5 @@
 import { PlatformRaw, ServiceRaw } from "../types";
+import { platform as jupiterPlatform } from "./jupiter-exchange";
 
 export const platform: PlatformRaw = {
   id: "jupiter-wallet",
@@ -9,6 +10,7 @@ export const platform: PlatformRaw = {
       "https://chromewebstore.google.com/detail/Jupiter%20Wallet/iledlaeogohbilgbfhmbgkgmpplbfboh",
   },
   tags: ["wallet"],
+  parentId: jupiterPlatform.id,
 };
 
 export const services: ServiceRaw[] = [];

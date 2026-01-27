@@ -1,4 +1,5 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { platform as jupiterPlatform } from "./jupiter-exchange";
 
 export const platform: PlatformRaw = {
   id: "jupiter-pm",
@@ -11,6 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/jup-ag",
   },
   tags: ["dapp", "prediction"],
+  parentId: jupiterPlatform.id,
 };
 
 const contract = {

@@ -1,4 +1,5 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
+import { platform as jupiterPlatform } from "./jupiter-exchange";
 
 export const platform: PlatformRaw = {
   id: "jupiter-launchpad",
@@ -7,6 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://lfg.jup.ag/",
   },
+  parentId: jupiterPlatform.id,
   tags: ["tool"],
 };
 

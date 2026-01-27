@@ -1,4 +1,5 @@
 import { PlatformRaw, ServiceRaw } from "../types";
+import { platform as jupiterPlatform } from "./jupiter-exchange";
 
 export const platform: PlatformRaw = {
   id: "jupiter-mobile",
@@ -10,6 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/jup_mobile",
   },
   tags: ["wallet"],
+  parentId: jupiterPlatform.id,
 };
 
 export const services: ServiceRaw[] = [];
