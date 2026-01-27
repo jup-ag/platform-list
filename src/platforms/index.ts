@@ -310,6 +310,7 @@ import * as trustfun from "./trustfun";
 import * as tuktuk from "./tuktuk";
 import * as tulip from "./tulip";
 import * as tuyo from "./tuyo";
+import * as unclaimedsol from "./unclaimedsol";
 import * as underdog from "./underdog";
 import * as uprock from "./uprock";
 import * as uxd from "./uxd";
@@ -640,6 +641,7 @@ export const platforms: PlatformRaw[] = [
   tuktuk.platform,
   tulip.platform,
   tuyo.platform,
+  unclaimedsol.platform,
   underdog.platform,
   uprock.platform,
   uxd.platform,
@@ -971,6 +973,7 @@ export const services: ServiceRaw[] = [
   ...tuktuk.services,
   ...tulip.services,
   ...tuyo.services,
+  ...unclaimedsol.services,
   ...underdog.services,
   ...uprock.services,
   ...uxd.services,
