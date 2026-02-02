@@ -200,6 +200,7 @@ import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
 import * as nodepay from "./nodepay";
 import * as nosana from "./nosana";
+import * as nufi from "./nufi";
 import * as nxfinance from "./nxfinance";
 import * as okaybears from "./okaybears";
 import * as okx from "./okx";
@@ -536,6 +537,7 @@ export const platforms: PlatformRaw[] = [
   nirvana.platform,
   nodepay.platform,
   nosana.platform,
+  nufi.platform,
   nxfinance.platform,
   okaybears.platform,
   okx.platform,
@@ -873,6 +875,7 @@ export const services: ServiceRaw[] = [
   ...nirvana.services,
   ...nodepay.services,
   ...nosana.services,
+  ...nufi.services,
   ...nxfinance.services,
   ...okaybears.services,
   ...okx.services,
