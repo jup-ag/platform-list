@@ -149,6 +149,7 @@ import * as invariant from "./invariant";
 import * as jet from "./jet";
 import * as jito from "./jito";
 import * as jpmorgan from "./jpmorgan";
+import * as jpool from "./jpool";
 import * as jupiterExchange from "./jupiter-exchange";
 import * as jupiterGovernance from "./jupiter-governance";
 import * as jupiterJupuary from "./jupiter-jupuary";
@@ -485,6 +486,7 @@ export const platforms: PlatformRaw[] = [
   jet.platform,
   jito.platform,
   jpmorgan.platform,
+  jpool.platform,
   jupiterExchange.platform,
   jupiterGovernance.platform,
   jupiterJupuary.platform,
@@ -822,6 +824,7 @@ export const services: ServiceRaw[] = [
   ...jet.services,
   ...jito.services,
   ...jpmorgan.services,
+  ...jpool.services,
   ...jupiterExchange.services,
   ...jupiterGovernance.services,
   ...jupiterJupuary.services,
