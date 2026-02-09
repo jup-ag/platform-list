@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/lpagent",
     documentation: "https://docs.lpagent.io/",
   },
-  tags: ["dapp", "tool"],
+  tags: ["dapp", "tool", "defi"],
   isDeprecated: true,
 };
 export const services: ServiceRaw[] = [];
