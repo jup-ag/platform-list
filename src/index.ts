@@ -2,7 +2,7 @@ import { platforms as platformsRaw } from "./platforms/index";
 import { services as servicesRaw } from "./platforms/index";
 import { Contract, Platform, Service } from "./types";
 
-export { Contract, ContractRaw, Platform, Service } from "./types";
+export { Contract, ContractRaw, Platform, Service, ServiceRaw } from "./types";
 export * from "./utils";
 
 const platforms: Platform[] = platformsRaw.map(
