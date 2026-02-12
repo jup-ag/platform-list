@@ -145,6 +145,7 @@ import * as huma from "./huma";
 import * as humidifi from "./humidifi";
 import * as hxro from "./hxro";
 import * as hylo from "./hylo";
+import * as icm from "./icm";
 import * as iloop from "./iloop";
 import * as invariant from "./invariant";
 import * as jet from "./jet";
@@ -482,6 +483,7 @@ export const platforms: PlatformRaw[] = [
   humidifi.platform,
   hxro.platform,
   hylo.platform,
+  icm.platform,
   iloop.platform,
   invariant.platform,
   jet.platform,
@@ -820,6 +822,7 @@ export const services: ServiceRaw[] = [
   ...humidifi.services,
   ...hxro.services,
   ...hylo.services,
+  ...icm.services,
   ...iloop.services,
   ...invariant.services,
   ...jet.services,
