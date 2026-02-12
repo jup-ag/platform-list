@@ -1,30 +1,26 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
-  id: "divvy",
-  name: "Divvy",
+  id: "daosdotfun",
+  name: "daos.fun",
   description:
-    "Divvy is a sports betting platform offering frictionless wagering with no signups or deposits required.",
-  defiLlamaId: "divvy.bet",
+    "launch an AI agent or DAO in 1-click alongside ai16z on Solana's biggest AI capital market.",
   links: {
-    website: "https://app.divvy.bet/",
-    discord: "https://discord.com/invite/divvybet",
-    twitter: "https://x.com/DivvyBet",
-    documentation:
-      "https://divvy.bet/wp-content/uploads/2022/12/Divvy_Knowledge_Hub_06.pdf",
+    website: "https://www.daos.fun/",
+    twitter: "https://x.com/daosdotfun",
+    documentation: "https://www.daos.fun/playbook",
   },
-  tokens: ["8fdi18UQNGg8mFEzjf79GUkzTg9YHSeojzCcarVxCX2y"],
-  tags: ["gaming", "dapp"],
+  tags: ["launchpad"],
 };
 
 const contract = {
-  name: "Divvy",
-  address: "dvyFwAPniptQNb1ey4eM12L8iLHrzdiDsPPDndd6xAR",
+  name: "Coin",
+  address: "4FqThZWv3QKWkSyXCDmATpWkpEiCHq5yhkdGWpSEDAZM",
   networkId: NetworkId.solana,
 };
 
 export const service: ServiceRaw = {
-  id: "divvy-betting",
-  name: "Divvy",
+  id: `${platform.id}-coin`,
+  name: "Coin",
   platformId: platform.id,
   contractsRaw: [contract],
 };
