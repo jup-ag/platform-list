@@ -1,32 +1,42 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
-  id: "gmxsol",
+  id: "gmtrade",
   name: "GMTrade",
   description:
-    "GODL is a mineable token using proof-of-work mechanics, allowing users to mine tokens through computational puzzles.",
-  tags: ["tool"],
+    "GMTrade is a decentralized leveraged trading platform built on the Solana blockchain.",
+  tags: ["dex"],
   links: {
-    website: "https://www.godl.supply/",
-    discord: "https://discord.com/invite/BDmq4CZXWr",
-    twitter: "https://x.com/GODLsupply",
-    documentation: "https://www.godl.supply/about",
+    website: "https://gmxsol.io/",
+    discord: "https://discord.com/invite/gmtrade",
+    twitter: "https://x.com/gmtrade_xyz",
+    documentation: "https://docs.gmtrade.xyz/",
   },
-  defiLlamaId: "godl-protocol",
-  platformToken: "GodL6KZ9uuUoQwELggtVzQkKmU1LfqmDokPibPeDKkhF",
-  addedAt: 1764244800000,
+  defiLlamaId: "gmtrade",
 };
 
-const v3Contract = {
-  name: "V3",
-  address: "mineWsRs2Rmw2jPMkVbgAbDjV1E23yQ8TEodaX3iza4",
+const tradeContract = {
+  name: "Trade",
+  address: "Gmso1uvJnLbawvw7yezdfCDcPydwW2s2iqG3w6MDucLo",
   networkId: NetworkId.solana,
 };
 
-export const v3Service: ServiceRaw = {
-  id: `${platform.id}-v3`,
-  name: "Mining",
-  platformId: platform.id,
-  contractsRaw: [v3Contract],
+const stakeContract = {
+  name: "Stake",
+  address: "LPMWczEVgXyQ3979XaqqEttanCXmYGvtJqPVtw1PvC8",
+  networkId: NetworkId.solana,
 };
 
-export const services: ServiceRaw[] = [v3Service];
+export const tradeService: ServiceRaw = {
+  id: `${platform.id}-trade`,
+  name: "Trade",
+  platformId: platform.id,
+  contractsRaw: [tradeContract],
+};
+export const stakeService: ServiceRaw = {
+  id: `${platform.id}-stake`,
+  name: "Trade",
+  platformId: platform.id,
+  contractsRaw: [stakeContract],
+};
+
+export const services: ServiceRaw[] = [tradeService];
