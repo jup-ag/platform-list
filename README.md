@@ -55,6 +55,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions and examples.
 To publish a new version:
 
 ```bash
+npm run format
 npm run build:index
 npm run commit:index
 npm version patch
