@@ -57,6 +57,7 @@ export const platform: PlatformRaw = {
   },
   tokens: ["TokenMintAddress1", "TokenMintAddress2"], // Optional
   tags: ["dapp", "dex"], // See available tags below
+  addedAt: 1767268800000, // The timestamp of the day of addition to the list
 };
 
 export const services: ServiceRaw[] = [];
@@ -90,6 +91,7 @@ You can convert images to WebP format using tools like:
 | `tokens`       | string[]      | No       | Array of token mint addresses                   |
 | `tags`         | PlatformTag[] | Yes      | Platform categories (see below)                 |
 | `links`        | object        | Yes      | Social links and resources                      |
+| `addedAt`      | number        | No       | The timestamp (in ms) of your PR                |
 
 ### Available Tags
 
