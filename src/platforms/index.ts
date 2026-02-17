@@ -200,6 +200,7 @@ import * as metaplex from "./metaplex";
 import * as metengine from "./metengine";
 import * as meteora from "./meteora";
 import * as mintech from "./mintech";
+import * as mixoor from "./mixoor";
 import * as mooncake from "./mooncake";
 import * as moonwalk from "./moonwalk";
 import * as moose from "./moose";
@@ -261,6 +262,7 @@ import * as ratex from "./ratex";
 import * as ratio from "./ratio";
 import * as raydium from "./raydium";
 import * as realms from "./realms";
+import * as recc from "./recc";
 import * as refihub from "./refihub";
 import * as reflect from "./reflect";
 import * as relay from "./relay";
@@ -326,6 +328,7 @@ import * as trove from "./trove";
 import * as trustfun from "./trustfun";
 import * as tuktuk from "./tuktuk";
 import * as tulip from "./tulip";
+import * as turbinecash from "./turbinecash";
 import * as tuyo from "./tuyo";
 import * as unclaimedsol from "./unclaimedsol";
 import * as underdog from "./underdog";
@@ -550,6 +553,7 @@ export const platforms: PlatformRaw[] = [
   metengine.platform,
   meteora.platform,
   mintech.platform,
+  mixoor.platform,
   mooncake.platform,
   moonwalk.platform,
   moose.platform,
@@ -611,6 +615,7 @@ export const platforms: PlatformRaw[] = [
   ratio.platform,
   raydium.platform,
   realms.platform,
+  recc.platform,
   refihub.platform,
   reflect.platform,
   relay.platform,
@@ -676,6 +681,7 @@ export const platforms: PlatformRaw[] = [
   trustfun.platform,
   tuktuk.platform,
   tulip.platform,
+  turbinecash.platform,
   tuyo.platform,
   unclaimedsol.platform,
   underdog.platform,
@@ -901,6 +907,7 @@ export const services: ServiceRaw[] = [
   ...metengine.services,
   ...meteora.services,
   ...mintech.services,
+  ...mixoor.services,
   ...mooncake.services,
   ...moonwalk.services,
   ...moose.services,
@@ -962,6 +969,7 @@ export const services: ServiceRaw[] = [
   ...ratio.services,
   ...raydium.services,
   ...realms.services,
+  ...recc.services,
   ...refihub.services,
   ...reflect.services,
   ...relay.services,
@@ -1027,6 +1035,7 @@ export const services: ServiceRaw[] = [
   ...trustfun.services,
   ...tuktuk.services,
   ...tulip.services,
+  ...turbinecash.services,
   ...tuyo.services,
   ...unclaimedsol.services,
   ...underdog.services,
