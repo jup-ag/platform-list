@@ -11,8 +11,8 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/mixooor",
     documentation: "https://docs.mixoor.fun/",
   },
-  tags: ["tool", "dapp"], 
-  tokens: ["CdqUsAfihtKntBsXPrFaovYyr642zKmZmLxzwWQfsoar"]
+  tags: ["tool", "dapp", "privacy"],
+  tokens: ["CdqUsAfihtKntBsXPrFaovYyr642zKmZmLxzwWQfsoar"],
 };
 
 export const services: ServiceRaw[] = [];
