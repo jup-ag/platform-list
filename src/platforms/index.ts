@@ -151,6 +151,7 @@ import * as hxro from "./hxro";
 import * as hylo from "./hylo";
 import * as icm from "./icm";
 import * as iloop from "./iloop";
+import * as infinex from "./infinex";
 import * as invariant from "./invariant";
 import * as jet from "./jet";
 import * as jito from "./jito";
@@ -504,6 +505,7 @@ export const platforms: PlatformRaw[] = [
   hylo.platform,
   icm.platform,
   iloop.platform,
+  infinex.platform,
   invariant.platform,
   jet.platform,
   jito.platform,
@@ -858,6 +860,7 @@ export const services: ServiceRaw[] = [
   ...hylo.services,
   ...icm.services,
   ...iloop.services,
+  ...infinex.services,
   ...invariant.services,
   ...jet.services,
   ...jito.services,
