@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.tender.cash/",
   },
   tags: ["payments", "tool"],
+  addedAt: 1770984000000,
 };
 
 export const services: ServiceRaw[] = [];

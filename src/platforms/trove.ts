@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
   tags: ["trading", "dapp", "defi", "rwa", "nft"],
   platformToken: "Trove4jcQhE1dZGrjBwe8LUEAZizcFDZ35gUHezmjhZ",
   addedAt: 1768910400000,
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];

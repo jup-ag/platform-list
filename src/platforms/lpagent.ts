@@ -12,5 +12,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.lpagent.io/",
   },
   tags: ["tool", "ai"],
+  addedAt: 1770984000000,
 };
 export const services: ServiceRaw[] = [];

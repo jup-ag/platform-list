@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.glam.systems/",
   },
   tags: ["defi", "institutional", "vault", "rwa", "infrastructure"],
+  addedAt: 1770984000000,
 };
 
 const protocolContract = {

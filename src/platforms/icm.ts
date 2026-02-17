@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
   },
   tags: ["dao"],
   platformToken: "G5bStqnKXv11fmPvMaagUbZi86BGnpf9zZtyPQtAdaos",
+  addedAt: 1770897600000,
 };
 
 const stakingContract = {

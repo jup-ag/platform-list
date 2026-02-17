@@ -20,11 +20,23 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
+const onycContract = {
+  name: "Elemental",
+  address: "ELE6rYCZUaegWxVhWM4ef9pXZBAgGUVaVKkTbDvX6BMU",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: "elemental-fund",
   name: "Elemental",
   platformId: platform.id,
   contractsRaw: [contract],
 };
+export const onycService: ServiceRaw = {
+  id: "elemental-fund-onyc",
+  name: "ONyc",
+  platformId: platform.id,
+  contractsRaw: [onycContract],
+};
 
-export const services: ServiceRaw[] = [service];
+export const services: ServiceRaw[] = [service, onycService];

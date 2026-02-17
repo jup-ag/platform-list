@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     documentation: "https://www.daos.fun/playbook",
   },
   tags: ["launchpad"],
+  addedAt: 1770897600000,
 };
 
 const contract = {

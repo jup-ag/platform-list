@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.gmtrade.xyz/",
   },
   defiLlamaId: "gmtrade",
+  addedAt: 1770897600000,
 };
 
 const tradeContract = {

@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://nufi.gitbook.io/developer-docs",
   },
   tags: ["wallet"],
+  addedAt: 1770984000000,
 };
 
 export const services: ServiceRaw[] = [];

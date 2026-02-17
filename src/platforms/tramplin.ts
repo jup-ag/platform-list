@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/tramplin",
   },
   tags: ["dapp"],
+  addedAt: 1770897600000,
 };
 
 export const services: ServiceRaw[] = [];

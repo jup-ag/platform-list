@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/8guY9uXBvA",
     twitter: "https://x.com/theprivacycash",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "privacy"],
   addedAt: 1761652800000,
 };
 

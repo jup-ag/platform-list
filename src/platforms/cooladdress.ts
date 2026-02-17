@@ -8,7 +8,8 @@ export const platform: PlatformRaw = {
     website: "https://www.address.cool/",
     twitter: "https://x.com/cool_address",
   },
-  tags: ["tool", "dapp"],
+  tags: ["tool"],
+  addedAt: 1770984000000,
 };
 
 export const services: ServiceRaw[] = [];

@@ -57,6 +57,7 @@ export const platform: PlatformRaw = {
   },
   tokens: ["TokenMintAddress1", "TokenMintAddress2"], // Optional
   tags: ["dapp", "dex"], // See available tags below
+  addedAt: 1767268800000, // The timestamp of the day of addition to the list
 };
 
 export const services: ServiceRaw[] = [];
@@ -84,12 +85,13 @@ You can convert images to WebP format using tools like:
 | -------------- | ------------- | -------- | ----------------------------------------------- |
 | `id`           | string        | Yes      | Unique identifier (lowercase, no spaces)        |
 | `name`         | string        | Yes      | Display name of the platform                    |
-| `description`  | string        | No       | Brief description of the platform               |
+| `description`  | string        | No       | Brief neutral description of the platform       |
 | `defiLlamaId`  | string        | No       | DefiLlama protocol ID                           |
 | `isDeprecated` | boolean       | No       | Mark platform as deprecated (defaults to false) |
 | `tokens`       | string[]      | No       | Array of token mint addresses                   |
 | `tags`         | PlatformTag[] | Yes      | Platform categories (see below)                 |
 | `links`        | object        | Yes      | Social links and resources                      |
+| `addedAt`      | number        | No       | The timestamp (in ms) of your PR                |
 
 ### Available Tags
 
@@ -114,6 +116,24 @@ Choose one or more tags that best describe your platform:
 - `desci` - Decentralized science
 - `fitness` - Fitness/health platform
 - `liquidity-provider` - Liquidity provider
+- `lending` - Lending and borrowing protocol
+- `rwa` - Real world assets
+- `institutional` - Institutional-grade platform
+- `prediction` - Prediction market
+- `trading` - Trading platform
+- `infrastructure` - Blockchain infrastructure
+- `amm` - Automated market maker
+- `vault` - Vault or yield aggregator
+- `defi` - Decentralized finance
+- `ai` - AI-related platform
+- `restaking` - Restaking protocol
+- `options` - Options trading
+- `payments` - Payment solution
+- `oracle` - Oracle provider
+- `nft` - NFT-related protocol
+- `bitcoin` - Bitcoin-related protocol
+- `card` - Card or spending solution
+- `privacy` - Privacy-focused protocol
 
 ## Services and Contracts
 

@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.sendai.fun",
   },
   tags: ["ai", "infrastructure", "tool"],
+  addedAt: 1770984000000,
 };
 
 export const services: ServiceRaw[] = [];
