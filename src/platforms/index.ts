@@ -58,6 +58,7 @@ import * as cega from "./cega";
 import * as chopcorp from "./chopcorp";
 import * as circle from "./circle";
 import * as circuit from "./circuit";
+import * as circular from "./circular";
 import * as citrus from "./citrus";
 import * as claimyoursols from "./claimyoursols";
 import * as claynosaurz from "./claynosaurz";
@@ -407,6 +408,7 @@ export const platforms: PlatformRaw[] = [
   chopcorp.platform,
   circle.platform,
   circuit.platform,
+  circular.platform,
   citrus.platform,
   claimyoursols.platform,
   claynosaurz.platform,
@@ -757,6 +759,7 @@ export const services: ServiceRaw[] = [
   ...chopcorp.services,
   ...circle.services,
   ...circuit.services,
+  ...circular.services,
   ...citrus.services,
   ...claimyoursols.services,
   ...claynosaurz.services,
