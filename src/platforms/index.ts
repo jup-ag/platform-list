@@ -279,6 +279,7 @@ import * as sgforge from "./sgforge";
 import * as sharky from "./sharky";
 import * as sky from "./sky";
 import * as smb from "./smb";
+import * as smithii from "./smithii";
 import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solanamobile from "./solanamobile";
@@ -627,6 +628,7 @@ export const platforms: PlatformRaw[] = [
   sharky.platform,
   sky.platform,
   smb.platform,
+  smithii.platform,
   solana.platform,
   solanaid.platform,
   solanamobile.platform,
@@ -976,6 +978,7 @@ export const services: ServiceRaw[] = [
   ...sharky.services,
   ...sky.services,
   ...smb.services,
+  ...smithii.services,
   ...solana.services,
   ...solanaid.services,
   ...solanamobile.services,
