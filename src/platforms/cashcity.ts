@@ -1,14 +1,29 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { NetworkId, PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "canary",
-  name: "Canary Capital",
+  id: "cashcity",
+  name: "Cash City",
   description:
-    "Canary Capital is a digital asset investment firm offering exposure to cryptocurrencies through ETFs and private funds.",
+    "Cash City is a competitive Trading Firm simulator built on Solana.",
   links: {
-    website: "https://www.canary.capital/",
-    twitter: "https://x.com/CanaryFunds",
+    website: "https://www.cashcity.fun/",
+    twitter: "https://x.com/cashcitydotfun",
+    documentation: "https://docs.cashcity.fun/",
   },
-  tags: ["institutional"],
+  tags: ["gaming"],
+  tokens: ["9QYybdHqCWB53h3bpJ6DY2ojgXavQKKe2yZR66xzDAKh"],
 };
 
-export const services: ServiceRaw[] = [];
+const contract = {
+  name: "Game",
+  address: "DGgwXnCW9ERZoqEbk47Z1Ny7tHmpptFLzBmq9ydua259",
+  networkId: NetworkId.solana,
+};
+
+export const service: ServiceRaw = {
+  id: `${platform.id}-game`,
+  name: "Game",
+  platformId: platform.id,
+  contractsRaw: [contract],
+};
+
+export const services: ServiceRaw[] = [service];
