@@ -5,10 +5,9 @@ export const platform: PlatformRaw = {
   description:
     "Mining is the process by which new HALO tokens are created and distributed to users",
   tags: ["tool"],
+  isDeprecated: true,
   links: {
     website: "https://halo.supply/",
-    twitter: "https://x.com/halosupply",
-    discord: "https://discord.gg/RU6DhKYz7u",
     documentation: "https://halo.supply/about",
   },
   platformToken: "HALozDi7vZmnzdhmriUJGRDy7A5RXiTPj7ZGuiALGgyX",

@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.helius.dev/",
     discord: "https://discord.gg/helius",
-    twitter: "https://x.com/heliuslabs",
+    twitter: "https://x.com/Helius",
     github: "https://github.com/helius-labs",
     documentation: "https://www.helius.dev/docs",
   },
