@@ -8,10 +8,11 @@ export const platform: PlatformRaw = {
   defiLlamaId: "tendermerchant",
   links: {
     website: "https://tender.cash/",
+    twitter: "https://x.com/Tender_Merchant",
     github: "https://github.com/Tender-cash/",
     documentation: "https://docs.tender.cash/",
   },
-  tags: ["tool"],
+  tags: ["payments", "tool"],
   addedAt: 1770984000000,
 };
 
