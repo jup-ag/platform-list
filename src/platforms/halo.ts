@@ -7,8 +7,6 @@ export const platform: PlatformRaw = {
   tags: ["tool"],
   links: {
     website: "https://halo.supply/",
-    twitter: "https://x.com/halosupply",
-    discord: "https://discord.gg/RU6DhKYz7u",
     documentation: "https://halo.supply/about",
   },
   platformToken: "HALozDi7vZmnzdhmriUJGRDy7A5RXiTPj7ZGuiALGgyX",

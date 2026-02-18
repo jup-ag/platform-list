@@ -8,7 +8,6 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://rain.fi/",
     discord: "https://discord.gg/rainfi",
-    twitter: "https://x.com/RainFi_",
     github: "https://github.com/rain-foundation",
     medium: "https://medium.com/@rainfi_",
     documentation: "https://docs.rain.fi/",
