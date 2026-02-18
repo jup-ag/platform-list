@@ -7,6 +7,7 @@ export const platform: PlatformRaw = {
     "RECC is a Solana-based, ETF-style real estate product that lets you access yields from real-world property deals through on-chain crowdfunding.",
   links: {
     website: "https://recc.finance/",
+    twitter: "https://x.com/RECCFinance",
     telegram: "https://t.me/reccfinance",
     discord: "https://discord.gg/zKV4B3etbX",
     documentation: "https://docs.recc.finance/",
