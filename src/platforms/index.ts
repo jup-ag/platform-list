@@ -53,6 +53,7 @@ import * as byreal from "./byreal";
 import * as canary from "./canary";
 import * as candle from "./candle";
 import * as carrot from "./carrot";
+import * as cashcity from "./cashcity";
 import * as cashmere from "./cashmere";
 import * as cega from "./cega";
 import * as chopcorp from "./chopcorp";
@@ -408,6 +409,7 @@ export const platforms: PlatformRaw[] = [
   canary.platform,
   candle.platform,
   carrot.platform,
+  cashcity.platform,
   cashmere.platform,
   cega.platform,
   chopcorp.platform,
@@ -764,6 +766,7 @@ export const services: ServiceRaw[] = [
   ...canary.services,
   ...candle.services,
   ...carrot.services,
+  ...cashcity.services,
   ...cashmere.services,
   ...cega.services,
   ...chopcorp.services,
