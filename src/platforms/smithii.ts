@@ -14,6 +14,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/SmithiiDev",
   },
   tags: ["dapp", "tool"],
+  addedAt: 1771329600000,
 };
 
 export const services: ServiceRaw[] = [];
