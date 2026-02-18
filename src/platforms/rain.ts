@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.rain.fi/",
   },
   tags: ["dapp"],
+  isDeprecated: true,
 };
 
 const contractNftLending = {
