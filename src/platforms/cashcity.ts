@@ -11,6 +11,7 @@ export const platform: PlatformRaw = {
   },
   tags: ["gaming"],
   tokens: ["9QYybdHqCWB53h3bpJ6DY2ojgXavQKKe2yZR66xzDAKh"],
+  addedAt: 1771499370000,
 };
 
 const contract = {

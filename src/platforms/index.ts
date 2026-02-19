@@ -216,6 +216,7 @@ import * as nxfinance from "./nxfinance";
 import * as okaybears from "./okaybears";
 import * as okx from "./okx";
 import * as omni from "./omni";
+import * as omnipair from "./omnipair";
 import * as ondoFinance from "./ondo-finance";
 import * as onre from "./onre";
 import * as oobit from "./oobit";
@@ -572,6 +573,7 @@ export const platforms: PlatformRaw[] = [
   okaybears.platform,
   okx.platform,
   omni.platform,
+  omnipair.platform,
   ondoFinance.platform,
   onre.platform,
   oobit.platform,
@@ -929,6 +931,7 @@ export const services: ServiceRaw[] = [
   ...okaybears.services,
   ...okx.services,
   ...omni.services,
+  ...omnipair.services,
   ...ondoFinance.services,
   ...onre.services,
   ...oobit.services,
