@@ -19,6 +19,7 @@ import * as amppay from "./amppay";
 import * as amulet from "./amulet";
 import * as antfun from "./antfun";
 import * as archer from "./archer";
+import * as arcium from "./arcium";
 import * as armada from "./armada";
 import * as artrade from "./artrade";
 import * as asgardfi from "./asgardfi";
@@ -376,6 +377,7 @@ export const platforms: PlatformRaw[] = [
   amulet.platform,
   antfun.platform,
   archer.platform,
+  arcium.platform,
   armada.platform,
   artrade.platform,
   asgardfi.platform,
@@ -734,6 +736,7 @@ export const services: ServiceRaw[] = [
   ...amulet.services,
   ...antfun.services,
   ...archer.services,
+  ...arcium.services,
   ...armada.services,
   ...artrade.services,
   ...asgardfi.services,
