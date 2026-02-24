@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 
 export const platform: PlatformRaw = {
   id: "unclaimedsol",
@@ -16,5 +16,18 @@ export const platform: PlatformRaw = {
   tags: ["tool"],
 };
 
-export const services: ServiceRaw[] = [];
+const burnCloseContract = {
+  name: "Burn & Close",
+  address: "UNCaXzXkR3vp8mbCJyxWUvwuRk5uHgzrwe6jcWPfiUR",
+  networkId: NetworkId.solana,
+};
+
+export const burnCloseService: ServiceRaw = {
+  id: `${platform.id}-burn-close`,
+  name: "Burn & Close",
+  platformId: platform.id,
+  contractsRaw: [burnCloseContract],
+};
+
+export const services: ServiceRaw[] = [burnCloseService];
 export default services;

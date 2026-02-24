@@ -1,4 +1,4 @@
-import { PlatformRaw, ServiceRaw } from "../types";
+import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 
 export const platform: PlatformRaw = {
   id: "arcium",
@@ -16,5 +16,18 @@ export const platform: PlatformRaw = {
   addedAt: 1739750400000,
 };
 
-export const services: ServiceRaw[] = [];
+const mxeContract = {
+  name: "MXE",
+  address: "Arcj82pX7HxYKLR92qvgZUAd7vGS1k4hQvAFcPATFdEQ",
+  networkId: NetworkId.solana,
+};
+
+export const mxeService: ServiceRaw = {
+  id: `${platform.id}-mxe`,
+  name: "MXE",
+  platformId: platform.id,
+  contractsRaw: [mxeContract],
+};
+
+export const services: ServiceRaw[] = [mxeService];
 export default services;
