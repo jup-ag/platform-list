@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/CollectorChat",
   },
   defiLlamaId: "collector-crypt",
-  tags: ["rwa", "nft-marketplace"],
+  tags: ["rwa", "nft-marketplace", "dapp"],
   platformToken: "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
 };
 
