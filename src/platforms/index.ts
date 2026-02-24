@@ -360,6 +360,7 @@ import * as zelo from "./zelo";
 import * as zenrock from "./zenrock";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
+import * as zora from "./zora";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
@@ -720,6 +721,7 @@ export const platforms: PlatformRaw[] = [
   zenrock.platform,
   zeta.platform,
   zeus.platform,
+  zora.platform,
 ];
 
 export const services: ServiceRaw[] = [
@@ -1081,4 +1083,5 @@ export const services: ServiceRaw[] = [
   ...zenrock.services,
   ...zeta.services,
   ...zeus.services,
+  ...zora.services,
 ];
