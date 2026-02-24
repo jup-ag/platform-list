@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://www.burnandclaim.com",
     twitter: "https://x.com/burnandclaim",
   },
-  tags: ["tool", "dapp"],
+  tags: ["tool"],
 };
 
 const burnAndClaimContract = {

@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/unclaimed-sol/spl-burn-close-sdk",
     documentation: "https://docs.unclaimedsol.com/",
   },
-  tags: ["dapp", "tool"],
+  tags: ["tool"],
 };
 
 export const services: ServiceRaw[] = [];
