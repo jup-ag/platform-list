@@ -12,9 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.twzrd.xyz/",
   },
   platformToken: "Dxk8mAb3C7AM8JN6tAJfVuSja5yidhZM5sEKW3SRX2BM",
-  tokens: [
-    "E9Kt33axpCy3ve2PCY9BSrbPhcR9wdDsWQECAahzw2dS",
-  ],
+  tokens: ["E9Kt33axpCy3ve2PCY9BSrbPhcR9wdDsWQECAahzw2dS"],
   tags: ["dapp", "vault", "defi"],
   addedAt: 1740009600000,
 };
