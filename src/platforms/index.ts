@@ -50,6 +50,7 @@ import * as brawl from "./brawl";
 import * as bskt from "./bskt";
 import * as btcsol from "./btcsol";
 import * as bulktrade from "./bulktrade";
+import * as burnandclaim from "./burnandclaim";
 import * as byreal from "./byreal";
 import * as canary from "./canary";
 import * as candle from "./candle";
@@ -409,6 +410,7 @@ export const platforms: PlatformRaw[] = [
   bskt.platform,
   btcsol.platform,
   bulktrade.platform,
+  burnandclaim.platform,
   byreal.platform,
   canary.platform,
   candle.platform,
@@ -769,6 +771,7 @@ export const services: ServiceRaw[] = [
   ...bskt.services,
   ...btcsol.services,
   ...bulktrade.services,
+  ...burnandclaim.services,
   ...byreal.services,
   ...canary.services,
   ...candle.services,
