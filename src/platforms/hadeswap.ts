@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     "Hadeswap was an NFT AMM marketplace enabling instant NFT trading with liquidity pools.",
   links: {
     website: "https://www.hadeswap.com/",
-    twitter: "https://x.com/hadeswap",
+    twitter: "https://x.com/SwapHades",
     github: "https://github.com/hadeswap-solana",
   },
   tags: ["dapp", "nft-marketplace"],
