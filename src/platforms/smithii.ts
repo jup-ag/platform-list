@@ -15,6 +15,7 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp", "tool"],
   addedAt: 1771329600000,
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];
