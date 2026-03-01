@@ -270,6 +270,7 @@ import * as realms from "./realms";
 import * as recc from "./recc";
 import * as refihub from "./refihub";
 import * as reflect from "./reflect";
+import * as reflex from "./reflex";
 import * as relay from "./relay";
 import * as remora from "./remora";
 import * as renzo from "./renzo";
@@ -631,6 +632,7 @@ export const platforms: PlatformRaw[] = [
   recc.platform,
   refihub.platform,
   reflect.platform,
+  reflex.platform,
   relay.platform,
   remora.platform,
   renzo.platform,
@@ -993,6 +995,7 @@ export const services: ServiceRaw[] = [
   ...recc.services,
   ...refihub.services,
   ...reflect.services,
+  ...reflex.services,
   ...relay.services,
   ...remora.services,
   ...renzo.services,
