@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   name: "Reflex",
   description:
     "Pump.fun staking protocol that redirects creator fees to token holders as SOL rewards.",
+  platformToken: "9vmTRY3SwAx54JpRd3kLbPrxxuX7xkyjg5Ug14aBpump",
   tags: ["dapp", "defi"],
   addedAt: 1738281600000,
   links: {
