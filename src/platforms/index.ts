@@ -121,6 +121,7 @@ import * as gauntlet from "./gauntlet";
 import * as gecko from "./gecko";
 import * as genesysgo from "./genesysgo";
 import * as glam from "./glam";
+import * as glowWallet from "./glow-wallet";
 import * as glow from "./glow";
 import * as gmtrade from "./gmtrade";
 import * as goblingold from "./goblingold";
@@ -190,6 +191,7 @@ import * as macaron from "./macaron";
 import * as madbears from "./madbears";
 import * as madlads from "./madlads";
 import * as maestro from "./maestro";
+import * as magicedenWallet from "./magiceden-wallet";
 import * as magiceden from "./magiceden";
 import * as magna from "./magna";
 import * as mango from "./mango";
@@ -287,8 +289,10 @@ import * as serum from "./serum";
 import * as sgforge from "./sgforge";
 import * as sharky from "./sharky";
 import * as sky from "./sky";
+import * as slope from "./slope";
 import * as smb from "./smb";
 import * as smithii from "./smithii";
+import * as sofi from "./sofi";
 import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solanamobile from "./solanamobile";
@@ -298,6 +302,7 @@ import * as solcard from "./solcard";
 import * as solcasino from "./solcasino";
 import * as solflare from "./solflare";
 import * as solincinerator from "./solincinerator";
+import * as sollet from "./sollet";
 import * as solomon from "./solomon";
 import * as solsave from "./solsave";
 import * as solsea from "./solsea";
@@ -482,6 +487,7 @@ export const platforms: PlatformRaw[] = [
   gecko.platform,
   genesysgo.platform,
   glam.platform,
+  glowWallet.platform,
   glow.platform,
   gmtrade.platform,
   goblingold.platform,
@@ -551,6 +557,7 @@ export const platforms: PlatformRaw[] = [
   madbears.platform,
   madlads.platform,
   maestro.platform,
+  magicedenWallet.platform,
   magiceden.platform,
   magna.platform,
   mango.platform,
@@ -648,8 +655,10 @@ export const platforms: PlatformRaw[] = [
   sgforge.platform,
   sharky.platform,
   sky.platform,
+  slope.platform,
   smb.platform,
   smithii.platform,
+  sofi.platform,
   solana.platform,
   solanaid.platform,
   solanamobile.platform,
@@ -659,6 +668,7 @@ export const platforms: PlatformRaw[] = [
   solcasino.platform,
   solflare.platform,
   solincinerator.platform,
+  sollet.platform,
   solomon.platform,
   solsave.platform,
   solsea.platform,
@@ -844,6 +854,7 @@ export const services: ServiceRaw[] = [
   ...gecko.services,
   ...genesysgo.services,
   ...glam.services,
+  ...glowWallet.services,
   ...glow.services,
   ...gmtrade.services,
   ...goblingold.services,
@@ -913,6 +924,7 @@ export const services: ServiceRaw[] = [
   ...madbears.services,
   ...madlads.services,
   ...maestro.services,
+  ...magicedenWallet.services,
   ...magiceden.services,
   ...magna.services,
   ...mango.services,
@@ -1010,8 +1022,10 @@ export const services: ServiceRaw[] = [
   ...sgforge.services,
   ...sharky.services,
   ...sky.services,
+  ...slope.services,
   ...smb.services,
   ...smithii.services,
+  ...sofi.services,
   ...solana.services,
   ...solanaid.services,
   ...solanamobile.services,
@@ -1021,6 +1035,7 @@ export const services: ServiceRaw[] = [
   ...solcasino.services,
   ...solflare.services,
   ...solincinerator.services,
+  ...sollet.services,
   ...solomon.services,
   ...solsave.services,
   ...solsea.services,
