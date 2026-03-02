@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 
 export const platform: PlatformRaw = {
   id: "m0",
-  name: "M^0",
+  name: "M0",
   description:
     "Universal stablecoin middleware enabling builders to create application-specific digital dollars backed by US Treasury bills.",
   links: {
