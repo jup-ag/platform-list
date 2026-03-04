@@ -1,6 +1,6 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "eternal-stake-finance",
+  id: "eternalstakefinance",
   name: "Eternal Stake Finance",
   description:
     "A Solana DeFi staking protocol — Plant once. Harvest forever ♾️.",
