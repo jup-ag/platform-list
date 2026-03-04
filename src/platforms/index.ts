@@ -314,7 +314,10 @@ import * as slope from "./slope";
 import * as smb from "./smb";
 import * as smithii from "./smithii";
 import * as sofi from "./sofi";
+import * as solanaExplorer from "./solana-explorer";
+import * as solanaFm from "./solana-fm";
 import * as solana from "./solana";
+import * as solanabeach from "./solanabeach";
 import * as solanaid from "./solanaid";
 import * as solanamobile from "./solanamobile";
 import * as solanart from "./solanart";
@@ -326,6 +329,7 @@ import * as solincinerator from "./solincinerator";
 import * as sollet from "./sollet";
 import * as solomon from "./solomon";
 import * as solsave from "./solsave";
+import * as solscan from "./solscan";
 import * as solsea from "./solsea";
 import * as solstice from "./solstice";
 import * as solv from "./solv";
@@ -384,6 +388,7 @@ import * as wintermute from "./wintermute";
 import * as worldpay from "./worldpay";
 import * as wormhole from "./wormhole";
 import * as wzrd from "./wzrd";
+import * as xray from "./xray";
 import * as xstocks from "./xstocks";
 import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
@@ -708,7 +713,10 @@ export const platforms: PlatformRaw[] = [
   smb.platform,
   smithii.platform,
   sofi.platform,
+  solanaExplorer.platform,
+  solanaFm.platform,
   solana.platform,
+  solanabeach.platform,
   solanaid.platform,
   solanamobile.platform,
   solanart.platform,
@@ -720,6 +728,7 @@ export const platforms: PlatformRaw[] = [
   sollet.platform,
   solomon.platform,
   solsave.platform,
+  solscan.platform,
   solsea.platform,
   solstice.platform,
   solv.platform,
@@ -778,6 +787,7 @@ export const platforms: PlatformRaw[] = [
   worldpay.platform,
   wormhole.platform,
   wzrd.platform,
+  xray.platform,
   xstocks.platform,
   y00ts.platform,
   yaku.platform,
@@ -1103,7 +1113,10 @@ export const services: ServiceRaw[] = [
   ...smb.services,
   ...smithii.services,
   ...sofi.services,
+  ...solanaExplorer.services,
+  ...solanaFm.services,
   ...solana.services,
+  ...solanabeach.services,
   ...solanaid.services,
   ...solanamobile.services,
   ...solanart.services,
@@ -1115,6 +1128,7 @@ export const services: ServiceRaw[] = [
   ...sollet.services,
   ...solomon.services,
   ...solsave.services,
+  ...solscan.services,
   ...solsea.services,
   ...solstice.services,
   ...solv.services,
@@ -1173,6 +1187,7 @@ export const services: ServiceRaw[] = [
   ...worldpay.services,
   ...wormhole.services,
   ...wzrd.services,
+  ...xray.services,
   ...xstocks.services,
   ...y00ts.services,
   ...yaku.services,
