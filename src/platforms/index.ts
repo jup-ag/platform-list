@@ -125,6 +125,7 @@ import * as frax from "./frax";
 import * as friktion from "./friktion";
 import * as fuse from "./fuse";
 import * as futarchy from "./futarchy";
+import * as futard from "./futard";
 import * as galaxy from "./galaxy";
 import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
@@ -161,6 +162,7 @@ import * as helius from "./helius";
 import * as holdium from "./holdium";
 import * as honeyland from "./honeyland";
 import * as hubble from "./hubble";
+import * as hubra from "./hubra";
 import * as huma from "./huma";
 import * as humidifi from "./humidifi";
 import * as hxro from "./hxro";
@@ -517,6 +519,7 @@ export const platforms: PlatformRaw[] = [
   friktion.platform,
   fuse.platform,
   futarchy.platform,
+  futard.platform,
   galaxy.platform,
   gary.platform,
   gauntlet.platform,
@@ -553,6 +556,7 @@ export const platforms: PlatformRaw[] = [
   holdium.platform,
   honeyland.platform,
   hubble.platform,
+  hubra.platform,
   huma.platform,
   humidifi.platform,
   hxro.platform,
@@ -910,6 +914,7 @@ export const services: ServiceRaw[] = [
   ...friktion.services,
   ...fuse.services,
   ...futarchy.services,
+  ...futard.services,
   ...galaxy.services,
   ...gary.services,
   ...gauntlet.services,
@@ -946,6 +951,7 @@ export const services: ServiceRaw[] = [
   ...holdium.services,
   ...honeyland.services,
   ...hubble.services,
+  ...hubra.services,
   ...huma.services,
   ...humidifi.services,
   ...hxro.services,
