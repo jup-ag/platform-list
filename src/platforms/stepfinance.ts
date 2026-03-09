@@ -15,6 +15,7 @@ export const platform: PlatformRaw = {
     "StPsoHokZryePePFV8N7iXvfEmgUoJ87rivABX7gaW6",
   ],
   tags: ["tool", "dapp"],
+  isDeprecated: true,
 };
 
 const stakingContract = {
