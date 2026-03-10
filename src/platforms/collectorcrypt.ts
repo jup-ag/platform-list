@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description: "RWA Pokemon cards on Solana",
   links: {
     website: "https://collectorcrypt.com/",
-    twitter: "https://twitter.com/Collector_Crypt",
+    twitter: "https://x.com/Collector_Crypt",
     discord: "https://discord.gg/dzYKMkQQKk",
     telegram: "https://t.me/CollectorChat",
   },

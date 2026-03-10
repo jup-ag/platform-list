@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.refihub.io/",
     discord: "https://discord.com/invite/B7f8Vx2ZFK",
-    twitter: "https://twitter.com/refihub",
+    twitter: "https://x.com/refihub",
     documentation: "https://refihub.gitbook.io/refi-hub",
   },
   tags: ["dapp", "rwa"],
