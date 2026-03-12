@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/NX_Finance",
   },
   tags: ["dapp"],
+  isDeprecated: true,
 };
 
 const contract = {
