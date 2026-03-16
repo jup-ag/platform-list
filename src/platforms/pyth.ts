@@ -22,6 +22,12 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
+const integrityPoolContract = {
+  name: "Staking",
+  address: "pyti8TM4zRVBjmarcgAPmTNNAXYKJv7WVHrkrm6woLN",
+  networkId: NetworkId.solana,
+};
+
 const airdropContract = {
   name: "Airdrop",
   address: "EXxqB6XPLczReFcZyigfbdowB6WGYtnkLYC4XZ2ae9ch",
@@ -48,6 +54,13 @@ export const stakingService: ServiceRaw = {
   link: "https://staking.pyth.network/",
   description:
     "PYTH token staking enabling holders to participate in data validation, earn rewards, and contribute to oracle network security.",
+};
+
+export const integrityPoolService: ServiceRaw = {
+  id: `${platform.id}-integrity-pool`,
+  name: "Integrity Pool",
+  platformId: platform.id,
+  contractsRaw: [integrityPoolContract],
 };
 
 export const governanceService: ServiceRaw = {
@@ -77,6 +90,7 @@ export const airdropService: ServiceRaw = {
 
 export const services: ServiceRaw[] = [
   stakingService,
+  integrityPoolService,
   governanceService,
   expressRelayService,
   airdropService,
