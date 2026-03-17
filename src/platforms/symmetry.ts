@@ -14,20 +14,33 @@ export const platform: PlatformRaw = {
     medium: "https://symmetry-fi.medium.com/",
     documentation: "https://docs.symmetry.fi/",
   },
-  tags: ["dapp", "defi"],
+  tags: ["dapp", "defi", "vault"],
 };
 
-const contract = {
-  name: "Symmetry",
+const v2Contract = {
+  name: "Symmetry V2",
   address: "2KehYt3KsEQR53jYcxjbQp2d2kCp4AkuQW68atufRwSr",
   networkId: NetworkId.solana,
 };
 
-export const service: ServiceRaw = {
-  id: "symmetry-main",
-  name: "Symmetry",
-  platformId: platform.id,
-  contractsRaw: [contract],
+const v3Contract = {
+  name: "Symmetry V3",
+  address: "BASKT7aKd8n7ibpUbwLP3Wiyxyi3yoiXsxBk4Hpumate",
+  networkId: NetworkId.solana,
 };
 
-export const services: ServiceRaw[] = [service];
+export const v2Service: ServiceRaw = {
+  id: "symmetry-main",
+  name: "V2",
+  platformId: platform.id,
+  contractsRaw: [v2Contract],
+};
+
+export const v3Service: ServiceRaw = {
+  id: "symmetry-v3",
+  name: "V3",
+  platformId: platform.id,
+  contractsRaw: [v3Contract],
+};
+
+export const services: ServiceRaw[] = [v2Service, v3Service];
