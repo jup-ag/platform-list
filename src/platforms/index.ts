@@ -183,6 +183,7 @@ import * as jupiterLaunchpad from "./jupiter-launchpad";
 import * as jupiterMobile from "./jupiter-mobile";
 import * as jupiterPm from "./jupiter-pm";
 import * as jupiterWallet from "./jupiter-wallet";
+import * as jupnet from "./jupnet";
 import * as kamino from "./kamino";
 import * as kast from "./kast";
 import * as katana from "./katana";
@@ -584,6 +585,7 @@ export const platforms: PlatformRaw[] = [
   jupiterMobile.platform,
   jupiterPm.platform,
   jupiterWallet.platform,
+  jupnet.platform,
   kamino.platform,
   kast.platform,
   katana.platform,
@@ -986,6 +988,7 @@ export const services: ServiceRaw[] = [
   ...jupiterMobile.services,
   ...jupiterPm.services,
   ...jupiterWallet.services,
+  ...jupnet.services,
   ...kamino.services,
   ...kast.services,
   ...katana.services,
