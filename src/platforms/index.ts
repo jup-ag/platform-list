@@ -181,6 +181,7 @@ import * as jupiterGovernance from "./jupiter-governance";
 import * as jupiterJupuary from "./jupiter-jupuary";
 import * as jupiterLaunchpad from "./jupiter-launchpad";
 import * as jupiterMobile from "./jupiter-mobile";
+import * as jupiterOfferbook from "./jupiter-offerbook";
 import * as jupiterPm from "./jupiter-pm";
 import * as jupiterWallet from "./jupiter-wallet";
 import * as jupnet from "./jupnet";
@@ -583,6 +584,7 @@ export const platforms: PlatformRaw[] = [
   jupiterJupuary.platform,
   jupiterLaunchpad.platform,
   jupiterMobile.platform,
+  jupiterOfferbook.platform,
   jupiterPm.platform,
   jupiterWallet.platform,
   jupnet.platform,
@@ -986,6 +988,7 @@ export const services: ServiceRaw[] = [
   ...jupiterJupuary.services,
   ...jupiterLaunchpad.services,
   ...jupiterMobile.services,
+  ...jupiterOfferbook.services,
   ...jupiterPm.services,
   ...jupiterWallet.services,
   ...jupnet.services,
