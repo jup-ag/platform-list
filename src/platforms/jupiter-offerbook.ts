@@ -19,7 +19,7 @@ export const contract = {
 };
 
 export const service: ServiceRaw = {
-  id: `jupiter-offerbook`,
+  id: `jupiter-offerbook-main`,
   name: "Offerbook",
   platformId: platform.id,
   contractsRaw: [contract],
