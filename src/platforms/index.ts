@@ -398,6 +398,7 @@ import * as xstocks from "./xstocks";
 import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
 import * as yieldfan from "./yieldfan";
+import * as yo from "./yo";
 import * as zelo from "./zelo";
 import * as zenrock from "./zenrock";
 import * as zepz from "./zepz";
@@ -802,6 +803,7 @@ export const platforms: PlatformRaw[] = [
   y00ts.platform,
   yaku.platform,
   yieldfan.platform,
+  yo.platform,
   zelo.platform,
   zenrock.platform,
   zepz.platform,
@@ -1207,6 +1209,7 @@ export const services: ServiceRaw[] = [
   ...y00ts.services,
   ...yaku.services,
   ...yieldfan.services,
+  ...yo.services,
   ...zelo.services,
   ...zenrock.services,
   ...zepz.services,
