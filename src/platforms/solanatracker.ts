@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     website: "https://www.solanatracker.io/",
     discord: "https://discord.gg/pzW6wMfsJT",
     twitter: "https://x.com/solanatrackr",
-    github: "https://github.com/solanatrackr",
+    github: "https://github.com/solanatracker",
   },
   tags: ["tool", "infrastructure"],
 };
