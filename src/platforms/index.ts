@@ -276,6 +276,7 @@ import * as playsolana from "./playsolana";
 import * as pluto from "./pluto";
 import * as poolparty from "./poolparty";
 import * as port from "./port";
+import * as portalBridge from "./portal-bridge";
 import * as portals from "./portals";
 import * as privacycash from "./privacycash";
 import * as privy from "./privy";
@@ -681,6 +682,7 @@ export const platforms: PlatformRaw[] = [
   pluto.platform,
   poolparty.platform,
   port.platform,
+  portalBridge.platform,
   portals.platform,
   privacycash.platform,
   privy.platform,
@@ -1087,6 +1089,7 @@ export const services: ServiceRaw[] = [
   ...pluto.services,
   ...poolparty.services,
   ...port.services,
+  ...portalBridge.services,
   ...portals.services,
   ...privacycash.services,
   ...privy.services,

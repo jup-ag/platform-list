@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Wormhole is a cross-chain messaging protocol enabling asset and data transfers between Solana and over 30 other blockchains.",
   links: {
-    website: "https://w.wormhole.com/",
+    website: "https://wormhole.com/",
     discord: "https://discord.com/invite/wormholecrypto",
     telegram: "https://t.me/wormholecrypto",
     twitter: "https://x.com/wormhole",
