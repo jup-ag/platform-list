@@ -14,7 +14,7 @@ export const platform: PlatformRaw = {
 
 export const contract = {
   name: "Loans",
-  address: "Loanq3nXSZtyb2QC2Xv9PBb7mwb99vSQUJ22cEwi3qH",
+  address: "offerbkFMvVfpQhL8ZQ5iromnjct5rz3r52B9ewu3ie",
   networkId: NetworkId.solana,
 };
 
