@@ -17,14 +17,20 @@ export const platform: PlatformRaw = {
 };
 
 const contract: ContractRaw = {
-  name: "Market",
+  name: "Legacy",
   address: "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
   networkId: NetworkId.solana,
 };
 
-export const marketService: ServiceRaw = {
-  id: `${platform.id}-market`,
-  name: "Market",
+const eternalContract: ContractRaw = {
+  name: "Eternal",
+  address: "EtrnLzgbS7nMMy5fbD42kXiUzGg8XQzJ972Xtk1cjWih",
+  networkId: NetworkId.solana,
+};
+
+export const legacyService: ServiceRaw = {
+  id: `${platform.id}-legacy`,
+  name: "Legacy",
   platformId: platform.id,
   contractsRaw: [contract],
   link: "https://www.phoenix.trade/",
@@ -32,4 +38,14 @@ export const marketService: ServiceRaw = {
     "On-chain central limit order book enabling traders to place limit and market orders with full price-time priority matching.",
 };
 
-export const services: ServiceRaw[] = [marketService];
+export const eternalService: ServiceRaw = {
+  id: `${platform.id}-eternal`,
+  name: "Eternal",
+  platformId: platform.id,
+  contractsRaw: [eternalContract],
+  link: "https://www.phoenix.trade/",
+  description:
+    "On-chain central limit order book enabling traders to place limit and market orders with full price-time priority matching.",
+};
+
+export const services: ServiceRaw[] = [legacyService, eternalService];
