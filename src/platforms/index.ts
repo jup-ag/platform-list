@@ -128,6 +128,7 @@ import * as fuse from "./fuse";
 import * as futarchy from "./futarchy";
 import * as futard from "./futard";
 import * as galaxy from "./galaxy";
+import * as garden from "./garden";
 import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
 import * as gecko from "./gecko";
@@ -534,6 +535,7 @@ export const platforms: PlatformRaw[] = [
   futarchy.platform,
   futard.platform,
   galaxy.platform,
+  garden.platform,
   gary.platform,
   gauntlet.platform,
   gecko.platform,
@@ -941,6 +943,7 @@ export const services: ServiceRaw[] = [
   ...futarchy.services,
   ...futard.services,
   ...galaxy.services,
+  ...garden.services,
   ...gary.services,
   ...gauntlet.services,
   ...gecko.services,
