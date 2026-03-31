@@ -1,6 +1,5 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 
-
 export const platform: PlatformRaw = {
   id: "solanatracker",
   name: "Solana Tracker",
@@ -14,6 +13,5 @@ export const platform: PlatformRaw = {
   },
   tags: ["tool", "infrastructure"],
 };
-
 
 export const services: ServiceRaw[] = [];
