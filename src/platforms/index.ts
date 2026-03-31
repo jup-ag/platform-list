@@ -329,6 +329,7 @@ import * as solanabeach from "./solanabeach";
 import * as solanaid from "./solanaid";
 import * as solanamobile from "./solanamobile";
 import * as solanart from "./solanart";
+import * as solanatracker from "./solanatracker";
 import * as solayer from "./solayer";
 import * as solcard from "./solcard";
 import * as solcasino from "./solcasino";
@@ -736,6 +737,7 @@ export const platforms: PlatformRaw[] = [
   solanaid.platform,
   solanamobile.platform,
   solanart.platform,
+  solanatracker.platform,
   solayer.platform,
   solcard.platform,
   solcasino.platform,
@@ -1144,6 +1146,7 @@ export const services: ServiceRaw[] = [
   ...solanaid.services,
   ...solanamobile.services,
   ...solanart.services,
+  ...solanatracker.services,
   ...solayer.services,
   ...solcard.services,
   ...solcasino.services,
