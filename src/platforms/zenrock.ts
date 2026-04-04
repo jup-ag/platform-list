@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://zenrocklabs.io/",
     twitter: "https://x.com/zenrock",
   },
-  tags: ["institutional", "bridge"],
+  tags: ["bridge"],
   tokens: [
     "9hX59xHHnaZXLU6quvm5uGY2iDiT3jczaReHy6A6TYKw",
     "JDt9rRGaieF6aN1cJkXFeUmsy7ZE4yY3CZb8tVMXVroS",

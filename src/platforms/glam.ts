@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/glamsystems/",
     documentation: "https://docs.glam.systems/",
   },
-  tags: ["defi", "institutional", "vault", "rwa", "infrastructure"],
+  tags: ["defi", "vault", "rwa", "infrastructure"],
   addedAt: 1770984000000,
 };
 
