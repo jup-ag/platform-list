@@ -2,6 +2,14 @@
 
 A comprehensive registry of platforms in the Solana ecosystem. This package provides structured platform data including metadata, links, token(s) information, smart contracts and services.
 
+## JSON endpoints
+
+The latest generated JSON files are available via GitHub Releases:
+
+- [`platforms.json`](https://github.com/jup-ag/platform-list/releases/latest/download/platforms.json)
+- [`services.json`](https://github.com/jup-ag/platform-list/releases/latest/download/services.json)
+- [`contracts.json`](https://github.com/jup-ag/platform-list/releases/latest/download/contracts.json)
+
 ## Installation
 
 ```bash
