@@ -1,6 +1,6 @@
 {
   "name": "@jup-ag/platform-list",
-  "version": "1.2.94",
+  "version": "1.2.95",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
