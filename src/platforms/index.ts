@@ -304,6 +304,7 @@ import * as reflex from "./reflex";
 import * as relay from "./relay";
 import * as remora from "./remora";
 import * as renzo from "./renzo";
+import * as rise from "./rise";
 import * as robinhood from "./robinhood";
 import * as runemine from "./runemine";
 import * as saber from "./saber";
@@ -712,6 +713,7 @@ export const platforms: PlatformRaw[] = [
   relay.platform,
   remora.platform,
   renzo.platform,
+  rise.platform,
   robinhood.platform,
   runemine.platform,
   saber.platform,
@@ -1121,6 +1123,7 @@ export const services: ServiceRaw[] = [
   ...relay.services,
   ...remora.services,
   ...renzo.services,
+  ...rise.services,
   ...robinhood.services,
   ...runemine.services,
   ...saber.services,
