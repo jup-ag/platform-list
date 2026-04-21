@@ -1,42 +1,29 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
-  id: "pumpswap",
-  name: "PumpSwap",
-  description: "Swap tokens on Pump.",
-  defiLlamaId: "pumpswap",
-  parentId: "pumpfun",
-  tags: ["dapp", "dex", "amm", "defi"],
+  id: "rise",
+  name: "Rise",
+  description: "RISE is a permissionless token launch platform",
+  tags: ["launchpad"],
   links: {
-    website: "https://swap.pump.fun/",
-    telegram: "https://t.me/pumpfunsupport",
-    twitter: "https://x.com/pumpfun",
+    website: "https://rise.rich/",
+    telegram: "https://t.me/rise_dot_rich",
+    twitter: "https://x.com/risedotrich",
+    github: "https://github.com/riserich",
+    documentation: "https://docs.rise.rich",
   },
 };
 
 const contract = {
-  name: "PumpSwap AMM",
-  address: "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
-  networkId: NetworkId.solana,
-};
-
-const feesContract = {
-  name: "Pump Fees",
-  address: "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+  name: "Launchpad",
+  address: "RiseZSHaLdj7pfn1tisUoSdG2i3QcVz9sQKuaRG9rar",
   networkId: NetworkId.solana,
 };
 
 export const service: ServiceRaw = {
-  id: "pumpswap-amm",
-  name: "PumpSwap AMM",
+  id: "rise-launchpad",
+  name: "Rise",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-export const feesService: ServiceRaw = {
-  id: "pumpswap-fees",
-  name: "Pump Fees",
-  platformId: platform.id,
-  contractsRaw: [feesContract],
-};
-
-export const services: ServiceRaw[] = [service, feesService];
+export const services: ServiceRaw[] = [service];
