@@ -39,5 +39,11 @@ jobs:
       - name: Build the package
         run: npm run build:ci
 
+      - name: Debug npm auth
+        run: |
+          npm whoami || true
+          npm org ls jup-ag || true
+          cat package.json | grep version
+
       - name: Publish package (npm)
         run: npm publish --provenance --access public
