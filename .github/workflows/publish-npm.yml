@@ -36,6 +36,13 @@ jobs:
       - name: Build the package
         run: npm run build:ci
 
+      - name: Debug OIDC claims
+        run: |
+          echo "repo: $GITHUB_REPOSITORY"
+          echo "workflow_ref: $GITHUB_WORKFLOW_REF"
+          echo "ref: $GITHUB_REF"
+          echo "event: $GITHUB_EVENT_NAME"
+
       - name: Debug npm auth
         run: |
           npm whoami || true
