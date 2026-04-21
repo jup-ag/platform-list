@@ -20,9 +20,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
           registry-url: https://registry.npmjs.org
           scope: "@jup-ag"
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: npm ci
@@ -35,19 +38,6 @@ jobs:
 
       - name: Build the package
         run: npm run build:ci
-
-      - name: Debug OIDC claims
-        run: |
-          echo "repo: $GITHUB_REPOSITORY"
-          echo "workflow_ref: $GITHUB_WORKFLOW_REF"
-          echo "ref: $GITHUB_REF"
-          echo "event: $GITHUB_EVENT_NAME"
-
-      - name: Debug npm auth
-        run: |
-          npm whoami || true
-          npm org ls jup-ag || true
-          cat package.json | grep version
 
       - name: Publish package (npm)
         run: npm publish --provenance --access public
