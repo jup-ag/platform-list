@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.sendit.fun/",
   },
   tags: ["dapp", "memecoin", "defi", "trading"],
+  isDeprecated: true,
 };
 
 const earnContract = {

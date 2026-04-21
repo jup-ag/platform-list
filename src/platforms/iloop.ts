@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://iloop-1.gitbook.io/docs.iloop.finance",
   },
   tags: ["dapp", "vault", "defi", "ai", "lst"],
+  isDeprecated: true,
 };
 
 const contract = {
