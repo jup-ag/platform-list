@@ -130,9 +130,27 @@ const lendVaultsContract = {
   networkId: NetworkId.solana,
 };
 
+const lendEthenaVaultsContract = {
+  name: "Lend Ethena Vaults",
+  address: "jupo974WCqAUMD3RtpayTap1me7StQCWtEkBbDb6Ba3",
+  networkId: NetworkId.solana,
+};
+
 export const lendContract = {
   name: "Lend",
   address: "jup3YeL8QhtSx1e253b2FDvsMNC87fDrgQZivbrndc9",
+  networkId: NetworkId.solana,
+};
+
+export const lendEthenaContract = {
+  name: "Lend Ethena",
+  address: "jup97Zx1NixM8UJMQFw8TtKzqTiRT3ETAJR7cVx3PfQ",
+  networkId: NetworkId.solana,
+};
+
+export const lendLiquidityEthenaContract = {
+  name: "Lend Liquidity Ethena",
+  address: "jup6QF1sNDGpkkcu6F4qaFHcRBmnSS1VgyB4uFbBvNS",
   networkId: NetworkId.solana,
 };
 
@@ -356,6 +374,20 @@ export const lendService: ServiceRaw = {
     "The lend service allows users to lend their cryptocurrencies to earn interest, providing a way to generate passive income from idle assets. This service facilitates liquidity provision and supports the broader DeFi ecosystem.",
 };
 
+export const lendEthenaService: ServiceRaw = {
+  id: `${platform.id}-lend-ethena`,
+  name: "Lend",
+  platformId: platform.id,
+  contractsRaw: [
+    lendEthenaContract,
+    lendEthenaVaultsContract,
+    lendLiquidityEthenaContract,
+  ],
+  link: "https://jup.ag/lend/ethena/market",
+  description:
+    "Institutional-grade lending for Ethena assets in a fully isolated market, co-curated with Bitwise.",
+};
+
 export const rewardsHubService: ServiceRaw = {
   id: `${platform.id}-rewards-hub`,
   name: "Rewards Hub",
@@ -397,6 +429,7 @@ export const services: ServiceRaw[] = [
   airdropService,
   inviteService,
   lendService,
+  lendEthenaService,
   rewardsHubService,
   deltaNeutralVaultService,
   reclaimService,
