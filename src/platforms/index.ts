@@ -356,6 +356,7 @@ import * as stepfinance from "./stepfinance";
 import * as streamflow from "./streamflow";
 import * as stripe from "./stripe";
 import * as sunny from "./sunny";
+import * as sunrise from "./sunrise";
 import * as superstate from "./superstate";
 import * as switchboard from "./switchboard";
 import * as sygnum from "./sygnum";
@@ -765,6 +766,7 @@ export const platforms: PlatformRaw[] = [
   streamflow.platform,
   stripe.platform,
   sunny.platform,
+  sunrise.platform,
   superstate.platform,
   switchboard.platform,
   sygnum.platform,
@@ -1175,6 +1177,7 @@ export const services: ServiceRaw[] = [
   ...streamflow.services,
   ...stripe.services,
   ...sunny.services,
+  ...sunrise.services,
   ...superstate.services,
   ...switchboard.services,
   ...sygnum.services,
