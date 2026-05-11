@@ -64,6 +64,7 @@ import * as carrot from "./carrot";
 import * as cashcity from "./cashcity";
 import * as cashmere from "./cashmere";
 import * as cega from "./cega";
+import * as cesto from "./cesto";
 import * as chopcorp from "./chopcorp";
 import * as circle from "./circle";
 import * as circuit from "./circuit";
@@ -475,6 +476,7 @@ export const platforms: PlatformRaw[] = [
   cashcity.platform,
   cashmere.platform,
   cega.platform,
+  cesto.platform,
   chopcorp.platform,
   circle.platform,
   circuit.platform,
@@ -887,6 +889,7 @@ export const services: ServiceRaw[] = [
   ...cashcity.services,
   ...cashmere.services,
   ...cega.services,
+  ...cesto.services,
   ...chopcorp.services,
   ...circle.services,
   ...circuit.services,
