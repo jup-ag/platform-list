@@ -37,6 +37,7 @@ import * as banger from "./banger";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
 import * as believe from "./believe";
+import * as binance from "./binance";
 import * as bio from "./bio";
 import * as bitgo from "./bitgo";
 import * as blackrock from "./blackrock";
@@ -447,6 +448,7 @@ export const platforms: PlatformRaw[] = [
   banx.platform,
   baskt.platform,
   believe.platform,
+  binance.platform,
   bio.platform,
   bitgo.platform,
   blackrock.platform,
@@ -858,6 +860,7 @@ export const services: ServiceRaw[] = [
   ...banx.services,
   ...baskt.services,
   ...believe.services,
+  ...binance.services,
   ...bio.services,
   ...bitgo.services,
   ...blackrock.services,
