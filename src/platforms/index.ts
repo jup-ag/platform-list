@@ -281,6 +281,7 @@ import * as poolparty from "./poolparty";
 import * as port from "./port";
 import * as portalBridge from "./portal-bridge";
 import * as portals from "./portals";
+import * as printr from "./printr";
 import * as privacycash from "./privacycash";
 import * as privy from "./privy";
 import * as project0 from "./project0";
@@ -693,6 +694,7 @@ export const platforms: PlatformRaw[] = [
   port.platform,
   portalBridge.platform,
   portals.platform,
+  printr.platform,
   privacycash.platform,
   privy.platform,
   project0.platform,
@@ -1106,6 +1108,7 @@ export const services: ServiceRaw[] = [
   ...port.services,
   ...portalBridge.services,
   ...portals.services,
+  ...printr.services,
   ...privacycash.services,
   ...privy.services,
   ...project0.services,
