@@ -93,6 +93,7 @@ import * as defituna from "./defituna";
 import * as degenapeacademy from "./degenapeacademy";
 import * as degencoinflip from "./degencoinflip";
 import * as degods from "./degods";
+import * as deriverse from "./deriverse";
 import * as dflow from "./dflow";
 import * as digitalkidu from "./digitalkidu";
 import * as diversifi from "./diversifi";
@@ -130,6 +131,7 @@ import * as fuse from "./fuse";
 import * as futarchy from "./futarchy";
 import * as futard from "./futard";
 import * as galaxy from "./galaxy";
+import * as gamma from "./gamma";
 import * as garden from "./garden";
 import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
@@ -506,6 +508,7 @@ export const platforms: PlatformRaw[] = [
   degenapeacademy.platform,
   degencoinflip.platform,
   degods.platform,
+  deriverse.platform,
   dflow.platform,
   digitalkidu.platform,
   diversifi.platform,
@@ -543,6 +546,7 @@ export const platforms: PlatformRaw[] = [
   futarchy.platform,
   futard.platform,
   galaxy.platform,
+  gamma.platform,
   garden.platform,
   gary.platform,
   gauntlet.platform,
@@ -920,6 +924,7 @@ export const services: ServiceRaw[] = [
   ...degenapeacademy.services,
   ...degencoinflip.services,
   ...degods.services,
+  ...deriverse.services,
   ...dflow.services,
   ...digitalkidu.services,
   ...diversifi.services,
@@ -957,6 +962,7 @@ export const services: ServiceRaw[] = [
   ...futarchy.services,
   ...futard.services,
   ...galaxy.services,
+  ...gamma.services,
   ...garden.services,
   ...gary.services,
   ...gauntlet.services,
