@@ -26,11 +26,23 @@ const onycContract = {
   networkId: NetworkId.solana,
 };
 
+const v2Contract = {
+  name: "Elemental V2",
+  address: "ELE7vRKKCzWT5SEt1eey2Snn3z6pWmBuv5AjDq3BeS1Y",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: "elemental-fund",
   name: "Elemental",
   platformId: platform.id,
   contractsRaw: [contract],
+};
+export const v2Service: ServiceRaw = {
+  id: "elemental-v2",
+  name: "Elemental V2",
+  platformId: platform.id,
+  contractsRaw: [v2Contract],
 };
 export const onycService: ServiceRaw = {
   id: "elemental-fund-onyc",
@@ -39,4 +51,4 @@ export const onycService: ServiceRaw = {
   contractsRaw: [onycContract],
 };
 
-export const services: ServiceRaw[] = [service, onycService];
+export const services: ServiceRaw[] = [service, onycService, v2Service];

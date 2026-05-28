@@ -84,4 +84,21 @@ export const withdrawableTokensService: ServiceRaw = {
   contractsRaw: [withdrawableTokensContract],
 };
 
-export const services: ServiceRaw[] = [service, withdrawableTokensService];
+const airdropContract = {
+  name: "RateX Airdrop",
+  address: "rateAsYRezXAQ8r7dwTeaRgC2YmcvEtKmYkuJDvD33s",
+  networkId: NetworkId.solana,
+};
+
+export const airdropService: ServiceRaw = {
+  id: `ratex-airdrop`,
+  name: "RateX Airdrop",
+  platformId: "ratex",
+  contractsRaw: [airdropContract],
+};
+
+export const services: ServiceRaw[] = [
+  service,
+  withdrawableTokensService,
+  airdropService,
+];
