@@ -18,11 +18,17 @@ const incineratorContract = {
   networkId: NetworkId.solana,
 };
 
+const safecineratorContract = {
+  name: "Safecinerator",
+  address: "CLEANALo6FtS6quqTTEXDGFFTuSKMkeKGgcweeiPRJzK",
+  networkId: NetworkId.solana,
+};
+
 export const cleanupService: ServiceRaw = {
   id: `${platform.id}-cleanup`,
   name: "Cleanup",
   platformId: platform.id,
-  contractsRaw: [incineratorContract],
+  contractsRaw: [incineratorContract, safecineratorContract],
 };
 
 export const services: ServiceRaw[] = [cleanupService];
