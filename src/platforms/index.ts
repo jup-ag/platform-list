@@ -196,6 +196,7 @@ import * as katana from "./katana";
 import * as kineko from "./kineko";
 import * as kishu from "./kishu";
 import * as knightrade from "./knightrade";
+import * as kormos from "./kormos";
 import * as kyros from "./kyros";
 import * as larix from "./larix";
 import * as lavarage from "./lavarage";
@@ -611,6 +612,7 @@ export const platforms: PlatformRaw[] = [
   kineko.platform,
   kishu.platform,
   knightrade.platform,
+  kormos.platform,
   kyros.platform,
   larix.platform,
   lavarage.platform,
@@ -1027,6 +1029,7 @@ export const services: ServiceRaw[] = [
   ...kineko.services,
   ...kishu.services,
   ...knightrade.services,
+  ...kormos.services,
   ...kyros.services,
   ...larix.services,
   ...lavarage.services,
