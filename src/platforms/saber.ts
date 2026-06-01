@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
   isDeprecated: true,
   tags: ["dapp", "dex", "amm"],
   links: {
-    website: "https://saberdao.io/",
+    website: "https://claim.saberdao.so/",
     twitter: "https://x.com/thesaberdao",
   },
   platformToken: "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
