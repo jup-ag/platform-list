@@ -229,6 +229,7 @@ import * as melee from "./melee";
 import * as metaplex from "./metaplex";
 import * as metengine from "./metengine";
 import * as meteora from "./meteora";
+import * as minebtc from "./minebtc";
 import * as mintech from "./mintech";
 import * as mixoor from "./mixoor";
 import * as mooncake from "./mooncake";
@@ -645,6 +646,7 @@ export const platforms: PlatformRaw[] = [
   metaplex.platform,
   metengine.platform,
   meteora.platform,
+  minebtc.platform,
   mintech.platform,
   mixoor.platform,
   mooncake.platform,
@@ -1062,6 +1064,7 @@ export const services: ServiceRaw[] = [
   ...metaplex.services,
   ...metengine.services,
   ...meteora.services,
+  ...minebtc.services,
   ...mintech.services,
   ...mixoor.services,
   ...mooncake.services,
