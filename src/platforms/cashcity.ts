@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.cashcity.fun/",
   },
   tags: ["gaming"],
+  isDeprecated: true,
   tokens: ["9QYybdHqCWB53h3bpJ6DY2ojgXavQKKe2yZR66xzDAKh"],
   addedAt: 1771499370000,
 };

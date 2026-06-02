@@ -14,6 +14,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.banx.gg/",
   },
   platformToken: "BANXbTpN8U2cU41FjPxe2Ti37PiT5cCxLUKDQZuJeMMR",
+  isDeprecated: true,
 };
 
 export const bondsContract = {
