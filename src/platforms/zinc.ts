@@ -2,9 +2,9 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 
 export const platform: PlatformRaw = {
   id: "zinc",
-  name: "ZINC",
+  name: "Zinc",
   description:
-    "ZINC is a private proof-of-work mining protocol on Solana powered by MetaDAO and Arcium.",
+    "Zinc is a private proof-of-work mining protocol on Solana powered by MetaDAO and Arcium.",
   tags: ["dapp"],
   links: {
     website: "https://zinc.cash",
