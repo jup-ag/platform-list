@@ -415,6 +415,7 @@ import * as zenrock from "./zenrock";
 import * as zepz from "./zepz";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
+import * as zinc from "./zinc";
 import * as zora from "./zora";
 
 export const platforms: PlatformRaw[] = [
@@ -831,6 +832,7 @@ export const platforms: PlatformRaw[] = [
   zepz.platform,
   zeta.platform,
   zeus.platform,
+  zinc.platform,
   zora.platform,
 ];
 
@@ -1248,5 +1250,6 @@ export const services: ServiceRaw[] = [
   ...zepz.services,
   ...zeta.services,
   ...zeus.services,
+  ...zinc.services,
   ...zora.services,
 ];

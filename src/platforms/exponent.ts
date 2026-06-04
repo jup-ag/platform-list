@@ -28,4 +28,30 @@ export const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [service];
+const v2Contract = {
+  name: "V2",
+  address: "XPC1MM4dYACDfykNuXYZ5una2DsMDWL24CrYubCvarC",
+  networkId: NetworkId.solana,
+};
+
+export const v2Service: ServiceRaw = {
+  id: "exponent-v2",
+  name: "V2",
+  platformId: platform.id,
+  contractsRaw: [v2Contract],
+};
+
+const vaultsContract = {
+  name: "Vaults",
+  address: "sVau1tXvayVWfotzm9Ahcv2qfnnfRWttt78BCnNC6dD",
+  networkId: NetworkId.solana,
+};
+
+export const vaultsService: ServiceRaw = {
+  id: "exponent-vaults",
+  name: "Vaults",
+  platformId: platform.id,
+  contractsRaw: [vaultsContract],
+};
+
+export const services: ServiceRaw[] = [service, v2Service, vaultsService];
