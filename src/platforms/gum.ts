@@ -1,8 +1,8 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 import { platform as jupiterPlatform } from "./jupiter-exchange";
 export const platform: PlatformRaw = {
-  id: "jupnet",
-  name: "Jupnet",
+  id: "gum",
+  name: "GUM",
   links: {
     website: "https://x.com/Jupnet",
     twitter: "https://x.com/Jupnet",
@@ -17,11 +17,17 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
+const bankProgram = {
+  name: "Bank Program",
+  address: "BankK1Y7HK6ZYmPorzAuUNk1TbJixDFQnqfWnP7HNmFZ",
+  networkId: NetworkId.solana,
+};
+
 export const service: ServiceRaw = {
   id: `${platform.id}-global-deposits`,
   name: "Global Deposit",
   platformId: platform.id,
-  contractsRaw: [contract],
+  contractsRaw: [contract, bankProgram],
 };
 
 export const services: ServiceRaw[] = [service];

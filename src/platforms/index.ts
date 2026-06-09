@@ -153,6 +153,7 @@ import * as grass from "./grass";
 import * as grayscale from "./grayscale";
 import * as growcorp from "./growcorp";
 import * as guano from "./guano";
+import * as gum from "./gum";
 import * as hadeswap from "./hadeswap";
 import * as halo from "./halo";
 import * as hamiltonlane from "./hamiltonlane";
@@ -189,7 +190,6 @@ import * as jupiterMobile from "./jupiter-mobile";
 import * as jupiterOfferbook from "./jupiter-offerbook";
 import * as jupiterPm from "./jupiter-pm";
 import * as jupiterWallet from "./jupiter-wallet";
-import * as jupnet from "./jupnet";
 import * as kamino from "./kamino";
 import * as kast from "./kast";
 import * as katana from "./katana";
@@ -326,6 +326,7 @@ import * as serum from "./serum";
 import * as sgforge from "./sgforge";
 import * as sharky from "./sharky";
 import * as sky from "./sky";
+import * as slabdrop from "./slabdrop";
 import * as slope from "./slope";
 import * as smb from "./smb";
 import * as smithii from "./smithii";
@@ -571,6 +572,7 @@ export const platforms: PlatformRaw[] = [
   grayscale.platform,
   growcorp.platform,
   guano.platform,
+  gum.platform,
   hadeswap.platform,
   halo.platform,
   hamiltonlane.platform,
@@ -607,7 +609,6 @@ export const platforms: PlatformRaw[] = [
   jupiterOfferbook.platform,
   jupiterPm.platform,
   jupiterWallet.platform,
-  jupnet.platform,
   kamino.platform,
   kast.platform,
   katana.platform,
@@ -744,6 +745,7 @@ export const platforms: PlatformRaw[] = [
   sgforge.platform,
   sharky.platform,
   sky.platform,
+  slabdrop.platform,
   slope.platform,
   smb.platform,
   smithii.platform,
@@ -990,6 +992,7 @@ export const services: ServiceRaw[] = [
   ...grayscale.services,
   ...growcorp.services,
   ...guano.services,
+  ...gum.services,
   ...hadeswap.services,
   ...halo.services,
   ...hamiltonlane.services,
@@ -1026,7 +1029,6 @@ export const services: ServiceRaw[] = [
   ...jupiterOfferbook.services,
   ...jupiterPm.services,
   ...jupiterWallet.services,
-  ...jupnet.services,
   ...kamino.services,
   ...kast.services,
   ...katana.services,
@@ -1163,6 +1165,7 @@ export const services: ServiceRaw[] = [
   ...sgforge.services,
   ...sharky.services,
   ...sky.services,
+  ...slabdrop.services,
   ...slope.services,
   ...smb.services,
   ...smithii.services,
