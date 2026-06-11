@@ -112,6 +112,7 @@ import * as etherfuse from "./etherfuse";
 import * as exoticmarkets from "./exoticmarkets";
 import * as exponent from "./exponent";
 import * as famousfoxfederation from "./famousfoxfederation";
+import * as fastpoker from "./fastpoker";
 import * as fdl from "./fdl";
 import * as fireblocks from "./fireblocks";
 import * as fiserv from "./fiserv";
@@ -531,6 +532,7 @@ export const platforms: PlatformRaw[] = [
   exoticmarkets.platform,
   exponent.platform,
   famousfoxfederation.platform,
+  fastpoker.platform,
   fdl.platform,
   fireblocks.platform,
   fiserv.platform,
@@ -951,6 +953,7 @@ export const services: ServiceRaw[] = [
   ...exoticmarkets.services,
   ...exponent.services,
   ...famousfoxfederation.services,
+  ...fastpoker.services,
   ...fdl.services,
   ...fireblocks.services,
   ...fiserv.services,
