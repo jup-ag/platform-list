@@ -157,6 +157,15 @@ export const setAuthorityService: ServiceRaw = {
     "Authority management for modifying token mint or freeze permissions.",
 };
 
+export const unwrapWsolService: ServiceRaw = {
+  id: `${platform.id}-unwrap-wsol`,
+  name: "Unwrap wSOL",
+  platformId: platform.id,
+  contractsRaw: [],
+  description:
+    "Wrapped SOL account closure converting wSOL back to native SOL.",
+};
+
 export {
   solanaStakingContract,
   solanaStakePoolContract,
@@ -174,4 +183,5 @@ export const services: ServiceRaw[] = [
   burnService,
   delegateService,
   setAuthorityService,
+  unwrapWsolService,
 ];
