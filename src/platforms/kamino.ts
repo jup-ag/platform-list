@@ -6,11 +6,11 @@ export const platform: PlatformRaw = {
     "Kamino is a DeFi protocol offering lending, borrowing, automated liquidity vaults, and leverage products.",
   defiLlamaId: "kamino-finance",
   links: {
-    website: "https://kamino.finance/",
+    website: "https://kamino.com/",
     discord: "https://discord.com/invite/kaminofinance",
     twitter: "https://x.com/kamino",
     github: "https://github.com/Kamino-Finance",
-    documentation: "https://docs.kamino.finance/",
+    documentation: "https://kamino.com/docs",
   },
   platformToken: "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
   tags: ["dapp", "lending", "vault", "defi"],
@@ -78,7 +78,7 @@ export const lendService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [lendContract],
-  link: "https://app.kamino.finance/lending",
+  link: "https://kamino.com/earn/lend",
   description:
     "Lending and borrowing protocol with eMode for higher LTV on correlated assets, enabling users to earn yield on deposits and access leverage.",
 };
@@ -88,7 +88,7 @@ export const multiplyService: ServiceRaw = {
   name: "Multiply",
   platformId: platform.id,
   contractsRaw: [],
-  link: "https://app.kamino.finance/multiply",
+  link: "https://kamino.com/multiply",
   description:
     "One-click leveraged vaults enabling up to 10x exposure on yield-bearing assets by automatically looping deposits and borrows.",
 };
@@ -107,6 +107,7 @@ export const swapService: ServiceRaw = {
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [],
+  link: "https://kamino.com/swap",
   description:
     "Token swap interface aggregating liquidity from multiple DEXs to find optimal trade routes and minimize slippage.",
 };
@@ -116,7 +117,7 @@ export const liquidityService: ServiceRaw = {
   name: "Liquidity",
   platformId: platform.id,
   contractsRaw: [poolsContract, vaultContract],
-  link: "https://app.kamino.finance/liquidity",
+  link: "https://kamino.com/liquidity",
   description:
     "Automated liquidity vaults that manage concentrated liquidity positions with auto-rebalancing and auto-compounding of fees.",
 };
@@ -135,6 +136,7 @@ export const vaultLeverageService: ServiceRaw = {
   name: "Leverage",
   platformId: platform.id,
   contractsRaw: [leverageOnVaultContract],
+  link: "https://kamino.com/leverage",
   description:
     "Leverage service enabling users to amplify their exposure to liquidity vault positions through flash loan-powered loops.",
 };
