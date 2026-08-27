@@ -36,6 +36,7 @@ import * as bags from "./bags";
 import * as bananagun from "./bananagun";
 import * as banger from "./banger";
 import * as banx from "./banx";
+import * as barkcoin from "./barkcoin";
 import * as baskt from "./baskt";
 import * as believe from "./believe";
 import * as binance from "./binance";
@@ -458,6 +459,7 @@ export const platforms: PlatformRaw[] = [
   bananagun.platform,
   banger.platform,
   banx.platform,
+  barkcoin.platform,
   baskt.platform,
   believe.platform,
   binance.platform,
@@ -881,6 +883,7 @@ export const services: ServiceRaw[] = [
   ...bananagun.services,
   ...banger.services,
   ...banx.services,
+  ...barkcoin.services,
   ...baskt.services,
   ...believe.services,
   ...binance.services,
