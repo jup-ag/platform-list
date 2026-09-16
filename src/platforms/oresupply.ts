@@ -1,17 +1,17 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "oresupply",
-  name: "OreSupply",
+  name: "ORE",
   description:
-    "ORE Supply is the original proof-of-work mining protocol enabling users to mine ORE tokens using computational puzzles.",
+    "ORE is a cryptocurrency mining protocol and token on the Solana blockchain.",
   defiLlamaId: "ore-protocol",
   tags: ["tool"],
   links: {
-    website: "https://ore.supply/",
-    discord: "https://discord.gg/4TQfshAAsT",
-    twitter: "https://x.com/oresupply",
+    website: "https://ore.com/",
+    discord: "https://discord.ore.com",
+    twitter: "https://x.com/ore",
     github: "https://github.com/regolith-labs/ore",
-    documentation: "https://ore.supply/mine",
+    documentation: "https://ore.com/mine",
   },
   platformToken: "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
 };
