@@ -1,6 +1,16 @@
-import { NetworkIdType } from "@sonarwatch/portfolio-core";
+export const NetworkId = {
+  bitcoin: "bitcoin",
+  solana: "solana",
+  ethereum: "ethereum",
+  avalanche: "avalanche",
+  polygon: "polygon",
+  aptos: "aptos",
+  sui: "sui",
+  sei: "sei",
+  bnb: "bnb",
+} as const;
 
-export { NetworkId } from "@sonarwatch/portfolio-core";
+export type NetworkIdType = (typeof NetworkId)[keyof typeof NetworkId];
 
 export type Platform = {
   id: string;
