@@ -203,6 +203,7 @@ import * as kyros from "./kyros";
 import * as larix from "./larix";
 import * as lavarage from "./lavarage";
 import * as layer3 from "./layer3";
+import * as leapsFinance from "./leaps-finance";
 import * as lido from "./lido";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
@@ -625,6 +626,7 @@ export const platforms: PlatformRaw[] = [
   larix.platform,
   lavarage.platform,
   layer3.platform,
+  leapsFinance.platform,
   lido.platform,
   lifinity.platform,
   ligma.platform,
@@ -1048,6 +1050,7 @@ export const services: ServiceRaw[] = [
   ...larix.services,
   ...lavarage.services,
   ...layer3.services,
+  ...leapsFinance.services,
   ...lido.services,
   ...lifinity.services,
   ...ligma.services,
