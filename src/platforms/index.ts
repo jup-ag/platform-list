@@ -399,6 +399,7 @@ import * as uxd from "./uxd";
 import * as vaneck from "./vaneck";
 import * as vaultka from "./vaultka";
 import * as vectis from "./vectis";
+import * as velocity from "./velocity";
 import * as vidar from "./vidar";
 import * as visa from "./visa";
 import * as voltr from "./voltr";
@@ -822,6 +823,7 @@ export const platforms: PlatformRaw[] = [
   vaneck.platform,
   vaultka.platform,
   vectis.platform,
+  velocity.platform,
   vidar.platform,
   visa.platform,
   voltr.platform,
@@ -1246,6 +1248,7 @@ export const services: ServiceRaw[] = [
   ...vaneck.services,
   ...vaultka.services,
   ...vectis.services,
+  ...velocity.services,
   ...vidar.services,
   ...visa.services,
   ...voltr.services,
