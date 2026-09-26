@@ -208,6 +208,7 @@ import * as lido from "./lido";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
 import * as lince from "./lince";
+import * as littleTown from "./little-town";
 import * as lodesupply from "./lodesupply";
 import * as lombard from "./lombard";
 import * as loopscale from "./loopscale";
@@ -632,6 +633,7 @@ export const platforms: PlatformRaw[] = [
   lifinity.platform,
   ligma.platform,
   lince.platform,
+  littleTown.platform,
   lodesupply.platform,
   lombard.platform,
   loopscale.platform,
@@ -1057,6 +1059,7 @@ export const services: ServiceRaw[] = [
   ...lifinity.services,
   ...ligma.services,
   ...lince.services,
+  ...littleTown.services,
   ...lodesupply.services,
   ...lombard.services,
   ...loopscale.services,
