@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
   },
   addedAt: 1767606188000,
   platformToken: "1ogCsoK7ZqZwiYam9i7xq2j6Bf2LizT6iQtGSp6vCoT",
+  isDeprecated: true,
 };
 
 const v3Contract = {
