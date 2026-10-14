@@ -364,6 +364,7 @@ import * as stabble from "./stabble";
 import * as stakewiz from "./stakewiz";
 import * as staratlas from "./staratlas";
 import * as stepfinance from "./stepfinance";
+import * as stonkfun from "./stonkfun";
 import * as streamflow from "./streamflow";
 import * as stripe from "./stripe";
 import * as sunny from "./sunny";
@@ -788,6 +789,7 @@ export const platforms: PlatformRaw[] = [
   stakewiz.platform,
   staratlas.platform,
   stepfinance.platform,
+  stonkfun.platform,
   streamflow.platform,
   stripe.platform,
   sunny.platform,
@@ -1213,6 +1215,7 @@ export const services: ServiceRaw[] = [
   ...stakewiz.services,
   ...staratlas.services,
   ...stepfinance.services,
+  ...stonkfun.services,
   ...streamflow.services,
   ...stripe.services,
   ...sunny.services,
