@@ -137,6 +137,7 @@ import * as gamma from "./gamma";
 import * as garden from "./garden";
 import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
+import * as gdex from "./gdex";
 import * as gecko from "./gecko";
 import * as gemini from "./gemini";
 import * as genesysgo from "./genesysgo";
@@ -562,6 +563,7 @@ export const platforms: PlatformRaw[] = [
   garden.platform,
   gary.platform,
   gauntlet.platform,
+  gdex.platform,
   gecko.platform,
   gemini.platform,
   genesysgo.platform,
@@ -988,6 +990,7 @@ export const services: ServiceRaw[] = [
   ...garden.services,
   ...gary.services,
   ...gauntlet.services,
+  ...gdex.services,
   ...gecko.services,
   ...gemini.services,
   ...genesysgo.services,
