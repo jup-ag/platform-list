@@ -80,6 +80,7 @@ import * as coinmarketcap from "./coinmarketcap";
 import * as coinshares from "./coinshares";
 import * as collectorcrypt from "./collectorcrypt";
 import * as cooladdress from "./cooladdress";
+import * as craicHubExchange from "./craic-hub-exchange";
 import * as cropper from "./cropper";
 import * as crossmint from "./crossmint";
 import * as cudis from "./cudis";
@@ -505,6 +506,7 @@ export const platforms: PlatformRaw[] = [
   coinshares.platform,
   collectorcrypt.platform,
   cooladdress.platform,
+  craicHubExchange.platform,
   cropper.platform,
   crossmint.platform,
   cudis.platform,
@@ -931,6 +933,7 @@ export const services: ServiceRaw[] = [
   ...coinshares.services,
   ...collectorcrypt.services,
   ...cooladdress.services,
+  ...craicHubExchange.services,
   ...cropper.services,
   ...crossmint.services,
   ...cudis.services,
