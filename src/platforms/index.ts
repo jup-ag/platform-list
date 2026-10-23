@@ -217,6 +217,7 @@ import * as m0 from "./m0";
 import * as m1capital from "./m1capital";
 import * as macaron from "./macaron";
 import * as madbears from "./madbears";
+import * as madeonsol from "./madeonsol";
 import * as madlads from "./madlads";
 import * as maestro from "./maestro";
 import * as magicedenWallet from "./magiceden-wallet";
@@ -643,6 +644,7 @@ export const platforms: PlatformRaw[] = [
   m1capital.platform,
   macaron.platform,
   madbears.platform,
+  madeonsol.platform,
   madlads.platform,
   maestro.platform,
   magicedenWallet.platform,
@@ -1070,6 +1072,7 @@ export const services: ServiceRaw[] = [
   ...m1capital.services,
   ...macaron.services,
   ...madbears.services,
+  ...madeonsol.services,
   ...madlads.services,
   ...maestro.services,
   ...magicedenWallet.services,
