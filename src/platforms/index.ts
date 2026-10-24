@@ -347,6 +347,7 @@ import * as solayer from "./solayer";
 import * as solcard from "./solcard";
 import * as solcasino from "./solcasino";
 import * as solflare from "./solflare";
+import * as solfray from "./solfray";
 import * as solincinerator from "./solincinerator";
 import * as sollet from "./sollet";
 import * as solomon from "./solomon";
@@ -773,6 +774,7 @@ export const platforms: PlatformRaw[] = [
   solcard.platform,
   solcasino.platform,
   solflare.platform,
+  solfray.platform,
   solincinerator.platform,
   sollet.platform,
   solomon.platform,
@@ -1200,6 +1202,7 @@ export const services: ServiceRaw[] = [
   ...solcard.services,
   ...solcasino.services,
   ...solflare.services,
+  ...solfray.services,
   ...solincinerator.services,
   ...sollet.services,
   ...solomon.services,
