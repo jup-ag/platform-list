@@ -318,6 +318,7 @@ import * as remora from "./remora";
 import * as renzo from "./renzo";
 import * as rise from "./rise";
 import * as robinhood from "./robinhood";
+import * as rozoCheckout from "./rozo-checkout";
 import * as runemine from "./runemine";
 import * as saber from "./saber";
 import * as sanctum from "./sanctum";
@@ -746,6 +747,7 @@ export const platforms: PlatformRaw[] = [
   renzo.platform,
   rise.platform,
   robinhood.platform,
+  rozoCheckout.platform,
   runemine.platform,
   saber.platform,
   sanctum.platform,
@@ -1175,6 +1177,7 @@ export const services: ServiceRaw[] = [
   ...renzo.services,
   ...rise.services,
   ...robinhood.services,
+  ...rozoCheckout.services,
   ...runemine.services,
   ...saber.services,
   ...sanctum.services,
