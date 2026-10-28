@@ -336,6 +336,7 @@ import * as slope from "./slope";
 import * as smb from "./smb";
 import * as smithii from "./smithii";
 import * as sofi from "./sofi";
+import * as sofinance from "./sofinance";
 import * as solanaExplorer from "./solana-explorer";
 import * as solanaFm from "./solana-fm";
 import * as solana from "./solana";
@@ -763,6 +764,7 @@ export const platforms: PlatformRaw[] = [
   smb.platform,
   smithii.platform,
   sofi.platform,
+  sofinance.platform,
   solanaExplorer.platform,
   solanaFm.platform,
   solana.platform,
@@ -1191,6 +1193,7 @@ export const services: ServiceRaw[] = [
   ...smb.services,
   ...smithii.services,
   ...sofi.services,
+  ...sofinance.services,
   ...solanaExplorer.services,
   ...solanaFm.services,
   ...solana.services,
