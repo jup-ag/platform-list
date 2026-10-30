@@ -302,6 +302,7 @@ import * as pumpkin from "./pumpkin";
 import * as pumpswap from "./pumpswap";
 import * as pyra from "./pyra";
 import * as pyth from "./pyth";
+import * as quantumpools from "./quantumpools";
 import * as quarry from "./quarry";
 import * as rain from "./rain";
 import * as ratex from "./ratex";
@@ -730,6 +731,7 @@ export const platforms: PlatformRaw[] = [
   pumpswap.platform,
   pyra.platform,
   pyth.platform,
+  quantumpools.platform,
   quarry.platform,
   rain.platform,
   ratex.platform,
@@ -1159,6 +1161,7 @@ export const services: ServiceRaw[] = [
   ...pumpswap.services,
   ...pyra.services,
   ...pyth.services,
+  ...quantumpools.services,
   ...quarry.services,
   ...rain.services,
   ...ratex.services,
