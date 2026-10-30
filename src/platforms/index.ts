@@ -298,6 +298,7 @@ import * as psy from "./psy";
 import * as pudgy from "./pudgy";
 import * as puffcoin from "./puffcoin";
 import * as pumpfun from "./pumpfun";
+import * as pumpfunbotScanner from "./pumpfunbot-scanner";
 import * as pumpkin from "./pumpkin";
 import * as pumpswap from "./pumpswap";
 import * as pyra from "./pyra";
@@ -726,6 +727,7 @@ export const platforms: PlatformRaw[] = [
   pudgy.platform,
   puffcoin.platform,
   pumpfun.platform,
+  pumpfunbotScanner.platform,
   pumpkin.platform,
   pumpswap.platform,
   pyra.platform,
@@ -1155,6 +1157,7 @@ export const services: ServiceRaw[] = [
   ...pudgy.services,
   ...puffcoin.services,
   ...pumpfun.services,
+  ...pumpfunbotScanner.services,
   ...pumpkin.services,
   ...pumpswap.services,
   ...pyra.services,
