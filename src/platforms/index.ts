@@ -317,6 +317,7 @@ import * as reflex from "./reflex";
 import * as relay from "./relay";
 import * as remora from "./remora";
 import * as renzo from "./renzo";
+import * as riftbeam from "./riftbeam";
 import * as rise from "./rise";
 import * as robinhood from "./robinhood";
 import * as runemine from "./runemine";
@@ -374,6 +375,7 @@ import * as stripe from "./stripe";
 import * as sunny from "./sunny";
 import * as sunrise from "./sunrise";
 import * as superstate from "./superstate";
+import * as swaptitan from "./swaptitan";
 import * as switchboard from "./switchboard";
 import * as sygnum from "./sygnum";
 import * as symmetry from "./symmetry";
@@ -746,6 +748,7 @@ export const platforms: PlatformRaw[] = [
   relay.platform,
   remora.platform,
   renzo.platform,
+  riftbeam.platform,
   rise.platform,
   robinhood.platform,
   runemine.platform,
@@ -803,6 +806,7 @@ export const platforms: PlatformRaw[] = [
   sunny.platform,
   sunrise.platform,
   superstate.platform,
+  swaptitan.platform,
   switchboard.platform,
   sygnum.platform,
   symmetry.platform,
@@ -1176,6 +1180,7 @@ export const services: ServiceRaw[] = [
   ...relay.services,
   ...remora.services,
   ...renzo.services,
+  ...riftbeam.services,
   ...rise.services,
   ...robinhood.services,
   ...runemine.services,
@@ -1233,6 +1238,7 @@ export const services: ServiceRaw[] = [
   ...sunny.services,
   ...sunrise.services,
   ...superstate.services,
+  ...swaptitan.services,
   ...switchboard.services,
   ...sygnum.services,
   ...symmetry.services,
