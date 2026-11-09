@@ -410,6 +410,7 @@ import * as visa from "./visa";
 import * as voltr from "./voltr";
 import * as wasabi from "./wasabi";
 import * as wbtc from "./wbtc";
+import * as wealthville from "./wealthville";
 import * as westernunion from "./westernunion";
 import * as whalesmarket from "./whalesmarket";
 import * as wink from "./wink";
@@ -839,6 +840,7 @@ export const platforms: PlatformRaw[] = [
   voltr.platform,
   wasabi.platform,
   wbtc.platform,
+  wealthville.platform,
   westernunion.platform,
   whalesmarket.platform,
   wink.platform,
@@ -1269,6 +1271,7 @@ export const services: ServiceRaw[] = [
   ...voltr.services,
   ...wasabi.services,
   ...wbtc.services,
+  ...wealthville.services,
   ...westernunion.services,
   ...whalesmarket.services,
   ...wink.services,
