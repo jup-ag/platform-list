@@ -41,6 +41,7 @@ import * as believe from "./believe";
 import * as binance from "./binance";
 import * as bio from "./bio";
 import * as bitgo from "./bitgo";
+import * as bitpont from "./bitpont";
 import * as blackrock from "./blackrock";
 import * as blaze from "./blaze";
 import * as bloom from "./bloom";
@@ -470,6 +471,7 @@ export const platforms: PlatformRaw[] = [
   binance.platform,
   bio.platform,
   bitgo.platform,
+  bitpont.platform,
   blackrock.platform,
   blaze.platform,
   bloom.platform,
@@ -900,6 +902,7 @@ export const services: ServiceRaw[] = [
   ...binance.services,
   ...bio.services,
   ...bitgo.services,
+  ...bitpont.services,
   ...blackrock.services,
   ...blaze.services,
   ...bloom.services,
