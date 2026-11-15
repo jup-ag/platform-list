@@ -15,6 +15,7 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp", "dex", "defi", "vault", "trading"],
   platformToken: "J1wnHdKvP34fg7TtYdX63UPJMTdXNzJGEqfNJB22vKjU",
+  isDeprecated: true,
 };
 
 // lookupAddressTable Es56bH1dokFwohpWS8XYSfTXavvSEuyob2FnUYzF6pCL
