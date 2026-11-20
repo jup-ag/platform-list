@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   description:
     "Jupiter Vaults, curated vaults whose shares are valued in USD across up to eight assets.",
   links: {
-    website: "https://vaults.jup.ag",
+    website: "https://jup.ag/earn",
     discord: "https://discord.gg/jup",
     twitter: "https://x.com/JupiterExchange",
     github: "https://github.com/jup-ag",
