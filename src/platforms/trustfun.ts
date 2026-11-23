@@ -6,8 +6,8 @@ export const platform: PlatformRaw = {
   description:
     "Token launch platform enabling new projects to bootstrap liquidity and distribute tokens through fair launch mechanics.",
   links: {
-    website: "https://trustfun.xyz/",
-    documentation: "https://trustfun.xyz/terms-conditions",
+    website: "https://trustfun.in/",
+    documentation: "https://trustfun.in/terms-conditions",
     twitter: "https://x.com/trustfun_xyz",
   },
   tags: ["launchpad", "memecoin", "dapp"],
