@@ -231,6 +231,7 @@ import * as marinade from "./marinade";
 import * as maxbid from "./maxbid";
 import * as mayan from "./mayan";
 import * as melee from "./melee";
+import * as memetics from "./memetics";
 import * as metaplex from "./metaplex";
 import * as metengine from "./metengine";
 import * as meteora from "./meteora";
@@ -660,6 +661,7 @@ export const platforms: PlatformRaw[] = [
   maxbid.platform,
   mayan.platform,
   melee.platform,
+  memetics.platform,
   metaplex.platform,
   metengine.platform,
   meteora.platform,
@@ -1090,6 +1092,7 @@ export const services: ServiceRaw[] = [
   ...maxbid.services,
   ...mayan.services,
   ...melee.services,
+  ...memetics.services,
   ...metaplex.services,
   ...metengine.services,
   ...meteora.services,
