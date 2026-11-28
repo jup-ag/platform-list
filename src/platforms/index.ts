@@ -123,6 +123,7 @@ import * as flexlend from "./flexlend";
 import * as flowmatic from "./flowmatic";
 import * as fluxbeam from "./fluxbeam";
 import * as fluxbot from "./fluxbot";
+import * as forg3r from "./forg3r";
 import * as forwardindustries from "./forwardindustries";
 import * as fragmetric from "./fragmetric";
 import * as francium from "./francium";
@@ -552,6 +553,7 @@ export const platforms: PlatformRaw[] = [
   flowmatic.platform,
   fluxbeam.platform,
   fluxbot.platform,
+  forg3r.platform,
   forwardindustries.platform,
   fragmetric.platform,
   francium.platform,
@@ -982,6 +984,7 @@ export const services: ServiceRaw[] = [
   ...flowmatic.services,
   ...fluxbeam.services,
   ...fluxbot.services,
+  ...forg3r.services,
   ...forwardindustries.services,
   ...fragmetric.services,
   ...francium.services,
