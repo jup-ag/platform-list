@@ -331,6 +331,7 @@ import * as sentre from "./sentre";
 import * as serum from "./serum";
 import * as sgforge from "./sgforge";
 import * as sharky from "./sharky";
+import * as shieldCorp from "./shield-corp";
 import * as sky from "./sky";
 import * as slabdrop from "./slabdrop";
 import * as slope from "./slope";
@@ -760,6 +761,7 @@ export const platforms: PlatformRaw[] = [
   serum.platform,
   sgforge.platform,
   sharky.platform,
+  shieldCorp.platform,
   sky.platform,
   slabdrop.platform,
   slope.platform,
@@ -1190,6 +1192,7 @@ export const services: ServiceRaw[] = [
   ...serum.services,
   ...sgforge.services,
   ...sharky.services,
+  ...shieldCorp.services,
   ...sky.services,
   ...slabdrop.services,
   ...slope.services,
